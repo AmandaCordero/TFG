@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.24)  8 MAR 2025 18:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.24)  5 MAY 2025 11:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,12 +1021,12 @@ LaTeX Font Warning: Font shape `T1/lmtt/m/In' undefined
 \c@lstlisting=\count367
 LaTeX Info: Redefining \. on input line 105.
 LaTeX Info: Redefining \% on input line 105.
-<Graphics/uhlogo.pdf, id=31, 401.5pt x 513.92pt>
+<Graphics/uhlogo.pdf, id=75, 401.5pt x 513.92pt>
 File: Graphics/uhlogo.pdf Graphic file (type pdf)
 <use Graphics/uhlogo.pdf>
 Package pdftex.def Info: Graphics/uhlogo.pdf  used on input line 108.
 (pdftex.def)             Requested size: 49.79231pt x 63.73012pt.
-<Graphics/qrcode-tesis.png, id=32, 692.5875pt x 692.5875pt>
+<Graphics/qrcode-tesis.png, id=76, 692.5875pt x 692.5875pt>
 File: Graphics/qrcode-tesis.png Graphic file (type png)
 <use Graphics/qrcode-tesis.png>
 Package pdftex.def Info: Graphics/qrcode-tesis.png  used on input line 108.
@@ -1073,6 +1073,38 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6.
+ (/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 6.
+ (/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 6.
+ (/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 6.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 6.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
 )
 \tf@toc=\write6
 \openout6 = `Thesis.toc'.
@@ -1127,15 +1159,32 @@ Cap\'{\i }tulo 1.
 
  (./MainMatter/MarcoTeorico.tex
 Cap\'{\i }tulo 2.
+
+Overfull \hbox (0.39537pt too wide) in paragraph at lines 8--8
+[]\T1/lmr/bx/n/14.4 Contexto mi-cro-bio-ló-gi-co: \T1/lmr/bx/it/14.4 Strep-to-coc-cus pneu-
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 22.
+(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [12
 
 
 
 
-]
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
+ [13]
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
+ [14])
+LaTeX Info: Redefining \. on input line 121.
+LaTeX Info: Redefining \% on input line 121.
+ [15]
 \openout2 = `BackMatter/Conclusions.aux'.
 
- (./BackMatter/Conclusions.tex) [13
+ (./BackMatter/Conclusions.tex) [16
 
 
 
@@ -1143,7 +1192,7 @@ Cap\'{\i }tulo 2.
 ]
 \openout2 = `BackMatter/Recommendations.aux'.
 
- (./BackMatter/Recommendations.tex) [14
+ (./BackMatter/Recommendations.tex) [17
 
 
 
@@ -1159,7 +1208,7 @@ Cap\'{\i }tulo 2.
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-)) [15
+)) [18
 
 
 
@@ -1179,23 +1228,23 @@ L3 programming layer <2024-01-22>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F579D891DD141C2B675640FBA723A086;669.
+(rerunfilecheck)             Checksum: 2CC941DA5FC5C9C96A9B4AF41C9CB275;3364.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27703 strings out of 474222
- 506432 string characters out of 5748732
- 1927975 words of memory out of 5000000
- 49345 multiletter control sequences out of 15000+600000
- 605868 words of font info for 60 fonts, out of 8000000 for 9000
+ 27906 strings out of 474222
+ 510285 string characters out of 5748732
+ 1931975 words of memory out of 5000000
+ 49499 multiletter control sequences out of 15000+600000
+ 633219 words of font info for 86 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 105i,11n,107p,573b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb>
-Output written on Thesis.pdf (15 pages, 194389 bytes).
+ 105i,11n,107p,781b,614s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb>
+Output written on Thesis.pdf (18 pages, 260820 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

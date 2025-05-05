@@ -1,9 +1,112 @@
 %===================================================================================
 % Chapter: Marco Teorico
 %===================================================================================
-\chapter{Marco Teórico}\label{chapter:marcoteorico}
+\chapter{Preliminares}\label{chapter:marcoteorico}
 %\addcontentsline{toc}{chapter}{Marco Teórico}
 %===================================================================================
 
-Pending...
-	
+\section{Contexto microbiológico: \textit{Streptococcus pneumoniae}}
+
+\textit{Streptococcus pneumoniae} (neumococo) es una bacteria Gram-positiva, encapsulada, de forma lanceolada, que coloniza las vías respiratorias superiores en humanos. Es un patógeno de relevancia clínica global, asociado a:
+
+\begin{itemize}
+    \item \textbf{Enfermedades invasivas}: Meningitis, neumonía bacteriemica y sepsis.
+    \item \textbf{Infecciones no invasivas}: Otitis media aguda y sinusitis.
+\end{itemize}
+
+\subsection{Características clave}
+\begin{itemize}
+    \item \textbf{Variabilidad serotípica}: Posee más de 90 serotipos diferenciados por la composición química de su cápsula polisacárida, siendo aproximadamente 20 los responsables del 80\% de las enfermedades invasivas.
+    \item \textbf{Mecanismos de patogenicidad}:
+    \begin{itemize}
+        \item Evasión inmunológica mediante la cápsula polisacárida (resistencia a la fagocitosis).
+        \item Producción de toxinas como la neumolisina.
+        \item Adhesinas que facilitan la colonización nasofaríngea.
+    \end{itemize}
+    \item \textbf{Poblaciones vulnerables}: Lactantes, adultos mayores (>65 años) e inmunocomprometidos.
+\end{itemize}
+
+\subsection{Importancia de la vacunación}
+La amplia distribución de serotipos y la emergencia de cepas resistentes a antibióticos (ej. penicilina, macrólidos) subrayan la necesidad de estrategias preventivas. Las vacunas conjugadas han reducido la incidencia de enfermedad neumocócica al inducir inmunidad específica contra los serotipos más prevalentes.
+
+\section{Inmunología básica}
+
+El sistema inmunitario tiene dos componentes principales que responden a patógenos como \textit{Streptococcus pneumoniae}:
+
+\begin{itemize}
+    \item \textbf{Sistema innato}: Actúa como primera línea de defensa con componentes celulares (neutrófilos, macrófagos y células dendríticas) y humorales (sistema del complemento).
+    
+    \item \textbf{Sistema adquirido}: Proporciona especificidad y memoria inmunológica, con linfocitos T (CD4+, CD8+) y B como actores principales.
+\end{itemize}
+
+\subsection{Respuesta inmune a \textit{Streptococcus pneumoniae}: rol de linfocitos B, memoria inmunológica y producción de anticuerpos}
+
+Los linfocitos B son esenciales en la respuesta a vacunas antineumocócicas:
+\begin{itemize}
+    \item Producen anticuerpos específicos tras la activación.
+    \item Experimentan maduración de afinidad y cambio de isotipo (ej. IgM → IgG).
+    \item Generan células de memoria para respuestas futuras más rápidas y eficientes.
+\end{itemize}
+
+\subsection{Características únicas en lactantes}
+\begin{itemize}
+    \item \textbf{Efecto de anticuerpos maternos}: 
+    \begin{itemize}
+        \item Transferencia placentaria de IgG (especialmente IgG1) mediante el receptor FcRn.
+        \item Protección adicional mediante IgA secretora en la lactancia.
+        \item Posible \textit{efecto blunting} (interferencia de anticuerpos maternos con la respuesta infantil), aunque su relevancia clínica es limitada.
+    \end{itemize}
+    
+    \item \textbf{Desarrollo del sistema inmune}: 
+    % COMENTARIO: El documento no proporciona detalles específicos sobre el desarrollo en los primeros 24 meses
+    El sistema inmunitario fetal es funcional pero inmaduro, dependiendo inicialmente de la protección materna.
+\end{itemize}
+
+\subsection{Definiciones clave} 
+\begin{itemize}
+    \item \textbf{Inmunogenicidad vs. efectividad clínica}:
+    \begin{itemize}
+        \item Inmunogenicidad: Capacidad de una vacuna para inducir una respuesta inmunitaria (ej. producción de anticuerpos).
+        \item Efectividad clínica: Protección real contra la enfermedad en condiciones del mundo real.
+    \end{itemize}
+    
+    \item \textbf{Conjugación proteica}:
+    % COMENTARIO: El documento no especifica qué proteínas carrier se usan en vacunas antineumocócicas
+    Las vacunas conjugadas unen polisacáridos a proteínas carrier para mejorar la respuesta inmunitaria, especialmente en niños.
+\end{itemize}
+
+\section{Vacunas antineumocócicas conjugadas}
+
+\subsection{Mecanismo de acción}
+Las vacunas antineumocócicas conjugadas utilizan polisacáridos capsulares conjugados a proteínas para:
+\begin{itemize}
+    \item Inducir una respuesta inmunitaria más robusta y duradera.
+    \item Generar memoria inmunológica mediante la activación de linfocitos T y B.
+\end{itemize}
+
+% \subsection{Serotipos cubiertos y correlatos de protección}
+% \begin{itemize}
+%     \item \textbf{PCV11}: Correlatos de protección varían por serotipo (ej.$ ≥ 0.35$ mcg/ml para serotipos 1, 14, etc.; $≥ 0.10$ mcg/ml para 6B).
+%     \item \textbf{PCV20}: Mismos correlatos que PCV11 para serotipos compartidos.
+%     \item \textbf{Nota}: Estos valores son criterios utilizados en ensayos clínicos (ej. por la FDA), pero la OMS no ha establecido un correlato de protección universal.
+% \end{itemize}
+
+% COMENTARIO: El documento no menciona específicamente PCV10 vs. PCV13 ni datos de epidemiología local
+
+\section{Modelado computacional aplicado}
+
+\subsection{Tipos de modelos}
+\begin{itemize}
+    \item \textbf{Modelos estocásticos}: 
+    \begin{itemize}
+        \item Útiles para simular interacciones célula-célula (ej. autómatas celulares).
+        \item Capturan la variabilidad inherente a sistemas biológicos.
+    \end{itemize}
+    
+    \item \textbf{Modelos deterministas}:
+    \begin{itemize}
+        \item Ecuaciones diferenciales ordinarias (ODE) para dinámica de poblaciones de linfocitos.
+        \item Ideales para sistemas con grandes números de células.
+    \end{itemize}
+\end{itemize}
+

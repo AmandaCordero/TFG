@@ -2,7 +2,18 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Introducción}{10}{chapter*.8}%
 \contentsline {chapter}{\numberline {1}Estado del Arte}{11}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Marco Teórico}{12}{chapter.2}%
-\contentsline {chapter}{Conclusiones}{13}{chapter*.9}%
-\contentsline {chapter}{Recomendaciones}{14}{chapter*.10}%
-\contentsline {chapter}{Referencias}{15}{chapter*.11}%
+\contentsline {chapter}{\numberline {2}Preliminares}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Contexto microbiológico: \textit {Streptococcus pneumoniae}}{12}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Características clave}{12}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Importancia de la vacunación}{13}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Inmunología básica}{13}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Respuesta inmune a \textit {Streptococcus pneumoniae}: rol de linfocitos B, memoria inmunológica y producción de anticuerpos}{13}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Características únicas en lactantes}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Definiciones clave}{14}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Vacunas antineumocócicas conjugadas}{14}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Mecanismo de acción}{14}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}Modelado computacional aplicado}{14}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Tipos de modelos}{14}{subsection.2.4.1}%
+\contentsline {chapter}{Conclusiones}{16}{chapter*.9}%
+\contentsline {chapter}{Recomendaciones}{17}{chapter*.10}%
+\contentsline {chapter}{Referencias}{18}{chapter*.11}%
