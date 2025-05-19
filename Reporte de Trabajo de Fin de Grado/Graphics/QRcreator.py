@@ -2,7 +2,7 @@ import pyqrcode
 from pyqrcode import QRCode
 import json
   
-content = "@misc{ ldgonzalez,\n\t" + "name = { Lázaro Daniel González Martínez },\n\t" + "title = { Modelos de metapoblaciones para el análisis de epidemias }, \n\t" + 'advisors = { Dr. José A. Mesejo Chiong, Dra. Angela M. León Mecías },\n\t' + 'year = 2024,\n\t' + "university = { University of Havana },\n\t" + 'type = { Diploma Thesis }\n' + "}"
+content = "@misc{ AmandaCordero,\n\t" + "name = { Amanda Cordero Lezcano },\n\t" + "title = { Simulador de sistema inmune para predecir la respuesta de lactantes a vacunas antineumocócicas conjugadas }, \n\t" + 'advisors = {MSc. Celia T. González González, MSc. Wilfredo Morales Lezca },\n\t' + 'year = 2025,\n\t' + "university = { University of Havana },\n\t" + 'type = { Diploma Thesis }\n' + "}"
 
 print (content)
   

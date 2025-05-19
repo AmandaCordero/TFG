@@ -1,19 +1,32 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{Introducción}{10}{chapter*.8}%
-\contentsline {chapter}{\numberline {1}Estado del Arte}{11}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Preliminares}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Contexto microbiológico: \textit {Streptococcus pneumoniae}}{12}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Características clave}{12}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Importancia de la vacunación}{13}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Inmunología básica}{13}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Respuesta inmune a \textit {Streptococcus pneumoniae}: rol de linfocitos B, memoria inmunológica y producción de anticuerpos}{13}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Características únicas en lactantes}{13}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Definiciones clave}{14}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Vacunas antineumocócicas conjugadas}{14}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Mecanismo de acción}{14}{subsection.2.3.1}%
-\contentsline {section}{\numberline {2.4}Modelado computacional aplicado}{14}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Tipos de modelos}{14}{subsection.2.4.1}%
-\contentsline {chapter}{Conclusiones}{16}{chapter*.9}%
-\contentsline {chapter}{Recomendaciones}{17}{chapter*.10}%
-\contentsline {chapter}{Referencias}{18}{chapter*.11}%
+\contentsline {chapter}{Introducción}{9}{chapter*.6}%
+\contentsline {chapter}{\numberline {1}Estado del Arte}{12}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Enfoques Computacionales Predominantes en la Modelización Inmunológica}{12}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Modelos de Transmisión Dinámica}{12}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Enfoques de Inmunología de Sistemas}{13}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Integración y Validación de Modelos Computacionales}{13}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Validación con Datos Epidemiológicos}{14}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Correlación Inmunológica y Validación Clínica}{14}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Aplicaciones de los Modelos en Estrategias de Vacunación}{14}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Predicción del Impacto Poblacional}{14}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Optimización de Programas Vacunales}{15}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Respuestas Inmunológicas Específicas a Vacunas Neumocócicas}{15}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Modelización de Respuestas Inmunes Innatas}{15}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Caracterización de Respuestas Inmunes Adaptativas}{16}{subsection.1.4.2}%
+\contentsline {section}{\numberline {1.5}Avances en la Modelización de Poblaciones Específicas}{16}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Modelización en Población Neonatal e Infantil}{16}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Comparaciones entre Grupos Etarios}{16}{subsection.1.5.2}%
+\contentsline {section}{\numberline {1.6}Conclusión}{17}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Preliminares}{18}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Características clave}{18}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Importancia de la vacunación}{19}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Inmunología básica}{19}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Respuesta inmune a \textit {S. pneumoniae}: linfocitos B, memoria inmunológica y anticuerpos}{19}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Características inmunológicas en lactantes}{19}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Definiciones clave}{20}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Vacunas antineumocócicas conjugadas}{20}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Cobertura y correlatos de protección}{20}{subsection.2.3.1}%
+\contentsline {chapter}{Conclusiones}{21}{chapter*.7}%
+\contentsline {chapter}{Recomendaciones}{22}{chapter*.8}%
+\contentsline {chapter}{Referencias}{23}{chapter*.9}%

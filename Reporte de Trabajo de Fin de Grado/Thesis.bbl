@@ -1,3 +1,68 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{WHO2019}
+World~Health Organization.
+\newblock Pneumococcal disease.
+\newblock 2019.
+
+\bibitem{OBrien2009}
+KL~O'Brien, LJ~Wolfson, JP~Watt, et~al.
+\newblock Burden of disease caused by streptococcus pneumoniae in children younger than 5 years: global estimates.
+\newblock {\em The Lancet}, 374(9693):893--902, 2009.
+
+\bibitem{Gonzalez2017}
+D.~González et~al.
+\newblock Vigilancia epidemiológica de enfermedades neumocócicas en cuba.
+\newblock {\em Revista Cubana de Salud Pública}, 43(2):123--134, 2017.
+
+\bibitem{Plotkin2017}
+S.~A. Plotkin, W.~A. Orenstein, P.~A. Offit, and K.~M. Edwards.
+\newblock {\em Plotkin's Vaccines}.
+\newblock Elsevier, 7th edition, 2017.
+
+\bibitem{Janeway2002}
+C.~A. Janeway, P.~Travers, M.~Walport, and M.~J. Shlomchik.
+\newblock {\em Immunobiology: The Immune System in Health and Disease}.
+\newblock Garland Science, 5th edition, 2002.
+
+\bibitem{Castiglione2014}
+F.~Castiglione, F.~Mantile, P.~De~Berardinis, and A.~Prisco.
+\newblock How the interval between prime and boost injection affects the immune response in a computational model of the immune system.
+\newblock {\em Computational and Mathematical Methods in Medicine}, 2014.
+
+\bibitem{SINC2021}
+Agencia SINC.
+\newblock Tres modelos matemáticos ayudan a decidir quién se vacuna primero, 2021.
+\newblock Consultado el 15 de mayo de 2025.
+
+\bibitem{UC3M2022}
+Revistas UC3M.
+\newblock El papel de los modelos matemáticos en la vacunación, 2022.
+\newblock Consultado el 15 de mayo de 2025.
+
+\bibitem{UCI2007}
+Universidad de~las Ciencias~Informáticas.
+\newblock Análisis y diseño de un simulador para el sistema inmune, 2007.
+\newblock Consultado el 15 de mayo de 2025.
+
+\bibitem{DW2023}
+Deutsche Welle.
+\newblock Inteligencia artificial produce vacunas superpotentes, 2023.
+\newblock Consultado el 15 de mayo de 2025.
+
+\bibitem{Snedecor2020a}
+S.~Snedecor.
+\newblock Op388 17-year disease reduction predicted by a transmission dynamic model after pneumococcal conjugate vaccine introduction in the united states.
+\newblock {\em International Journal of Technology Assessment in Health Care}, 2020.
+
+\bibitem{Snedecor2020b}
+S.~Snedecor.
+\newblock Pin59 17-year disease reduction predicted by a transmission dynamic model after pneumococcal conjugate vaccine introduction in the united states, 2020.
+\newblock Revisar fuente original para detalles de publicación faltantes.
+
+\bibitem{Obermoser2013}
+G.~Obermoser, S.~R. Presnell, K.~Domico, H.~Xu, Y.~Wang, E.~Anguiano, L.~Thompson-Snipes, et~al.
+\newblock Systems scale interactive exploration reveals quantitative and qualitative differences in response to influenza and pneumococcal vaccines.
+\newblock {\em Immunity}, 2013.
 
 \end{thebibliography}
