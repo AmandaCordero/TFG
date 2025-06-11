@@ -9,7 +9,8 @@ A level-1 auxiliary file: FrontMatter/Contents.aux
 A level-1 auxiliary file: MainMatter/Introduction.aux
 A level-1 auxiliary file: MainMatter/EstadoArte.aux
 A level-1 auxiliary file: MainMatter/MarcoTeorico.aux
-A level-1 auxiliary file: MainMatter/Results.aux
+A level-1 auxiliary file: MainMatter/Metodologia.aux
+A level-1 auxiliary file: MainMatter/Resultados.aux
 A level-1 auxiliary file: BackMatter/Conclusions.aux
 A level-1 auxiliary file: BackMatter/Recommendations.aux
 A level-1 auxiliary file: BackMatter/Bibliography.aux
@@ -26,7 +27,7 @@ Warning--entry type for "DW2023" isn't style-file defined
 Warning--empty journal in WHO2019
 You've used 13 entries,
             1791 wiz_defined-function locations,
-            535 strings with 6023 characters,
+            536 strings with 6052 characters,
 and the built_in function-call counts, 2211 in all, are:
 = -- 173
 > -- 118

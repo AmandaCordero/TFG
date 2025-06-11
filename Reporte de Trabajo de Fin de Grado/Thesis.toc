@@ -27,6 +27,12 @@
 \contentsline {subsection}{\numberline {2.2.3}Definiciones clave}{20}{subsection.2.2.3}%
 \contentsline {section}{\numberline {2.3}Vacunas antineumocócicas conjugadas}{20}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Cobertura y correlatos de protección}{20}{subsection.2.3.1}%
-\contentsline {chapter}{Conclusiones}{21}{chapter*.7}%
-\contentsline {chapter}{Recomendaciones}{22}{chapter*.8}%
-\contentsline {chapter}{Referencias}{23}{chapter*.9}%
+\contentsline {chapter}{\numberline {3}Metodología}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modelado de agentes biológicos}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Centros Germinales}{22}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Procesos Inmunológicos clave}{22}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Sistema Inmune}{23}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Experimentación y Resultados}{25}{chapter.4}%
+\contentsline {chapter}{Conclusiones}{28}{chapter*.7}%
+\contentsline {chapter}{Recomendaciones}{29}{chapter*.8}%
+\contentsline {chapter}{Referencias}{30}{chapter*.9}%
