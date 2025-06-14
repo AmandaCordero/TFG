@@ -428,7 +428,11 @@ OUTPUT FrontMatter/Abstract.aux
 INPUT ./FrontMatter/Abstract.tex
 INPUT ./FrontMatter/Abstract.tex
 INPUT FrontMatter/Abstract.tex
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr10.tfm
+INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
+INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
+INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmr10.tfm
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT ./FrontMatter/Contents.tex
 INPUT ./FrontMatter/Contents.tex
 OUTPUT FrontMatter/Contents.aux
@@ -482,11 +486,6 @@ OUTPUT MainMatter/Introduction.aux
 INPUT ./MainMatter/Introduction.tex
 INPUT ./MainMatter/Introduction.tex
 INPUT MainMatter/Introduction.tex
-INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
-INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
-INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmr10.tfm
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT ./MainMatter/EstadoArte.tex
 INPUT ./MainMatter/EstadoArte.tex
 OUTPUT MainMatter/EstadoArte.aux
