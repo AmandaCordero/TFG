@@ -58,11 +58,31 @@ S.~Snedecor.
 \bibitem{Snedecor2020b}
 S.~Snedecor.
 \newblock Pin59 17-year disease reduction predicted by a transmission dynamic model after pneumococcal conjugate vaccine introduction in the united states, 2020.
-\newblock Revisar fuente original para detalles de publicación faltantes.
 
 \bibitem{Obermoser2013}
 G.~Obermoser, S.~R. Presnell, K.~Domico, H.~Xu, Y.~Wang, E.~Anguiano, L.~Thompson-Snipes, et~al.
 \newblock Systems scale interactive exploration reveals quantitative and qualitative differences in response to influenza and pneumococcal vaccines.
 \newblock {\em Immunity}, 2013.
+
+\bibitem{PREADOJ2001}
+VALERIA PREADO~J.
+\newblock {Conceptos microbiológicos de Streptococcus pneumoniae: BASIC MICROBIOLOGICAL ASPECTS}.
+\newblock {\em {Revista chilena de infectolog\~A\-a}}, 18:6 -- 9, 00 2001.
+
+\bibitem{AEP2023Blunting}
+{Asociación Española de Pediatría (AEP)}.
+\newblock Manual de inmunizaciones: aspectos inmunológicos de la vacunación maternal.
+\newblock \url{https://vacunasaep.org/profesionales/noticias/manual-de-inmunizaciones-inmunologia-vacunacion-maternal}, 2023.
+\newblock Consultado el 14 de junio de 2025.
+
+\bibitem{Lequin2005}
+R.~M. Lequin.
+\newblock Enzyme immunoassay (eia)/enzyme-linked immunosorbent assay (elisa).
+\newblock {\em Clinical Chemistry}, 51(12):2415--2418, 2005.
+
+\bibitem{Crowther2009}
+J.~R. Crowther.
+\newblock {\em The ELISA Guidebook}.
+\newblock Humana Press, New York, 2nd edition, 2009.
 
 \end{thebibliography}

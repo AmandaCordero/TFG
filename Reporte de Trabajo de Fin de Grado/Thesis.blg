@@ -2,7 +2,6 @@ This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Thesis.aux
 A level-1 auxiliary file: FrontMatter/Dedication.aux
-A level-1 auxiliary file: FrontMatter/Thanks.aux
 A level-1 auxiliary file: FrontMatter/SupervisorOpinion.aux
 A level-1 auxiliary file: FrontMatter/Abstract.aux
 A level-1 auxiliary file: FrontMatter/Contents.aux
@@ -25,45 +24,45 @@ Warning--entry type for "UCI2007" isn't style-file defined
 Warning--entry type for "DW2023" isn't style-file defined
 --line 105 of file Bibliography.bib
 Warning--empty journal in WHO2019
-You've used 13 entries,
+You've used 17 entries,
             1791 wiz_defined-function locations,
-            536 strings with 6052 characters,
-and the built_in function-call counts, 2211 in all, are:
-= -- 173
-> -- 118
+            566 strings with 6658 characters,
+and the built_in function-call counts, 2929 in all, are:
+= -- 242
+> -- 134
 < -- 0
-+ -- 46
-- -- 33
-* -- 105
-:= -- 377
-add.period$ -- 39
-call.type$ -- 13
-change.case$ -- 13
++ -- 54
+- -- 37
+* -- 144
+:= -- 489
+add.period$ -- 51
+call.type$ -- 17
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 95
-empty$ -- 233
-format.name$ -- 33
-if$ -- 484
+cite$ -- 18
+duplicate$ -- 128
+empty$ -- 317
+format.name$ -- 37
+if$ -- 648
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 10
-newline$ -- 68
-num.names$ -- 13
-pop$ -- 63
+int.to.str$ -- 17
+missing$ -- 14
+newline$ -- 88
+num.names$ -- 17
+pop$ -- 76
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 37
+skip$ -- 48
 stack$ -- 0
-substring$ -- 50
-swap$ -- 12
+substring$ -- 96
+swap$ -- 16
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 17
-width$ -- 15
-write$ -- 135
+while$ -- 24
+width$ -- 19
+write$ -- 179
 (There were 5 warnings)

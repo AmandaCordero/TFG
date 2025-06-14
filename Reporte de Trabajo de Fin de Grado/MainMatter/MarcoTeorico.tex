@@ -1,22 +1,18 @@
 %===================================================================================
 % Chapter: Marco Teorico
 %===================================================================================
-\chapter{Preliminares}\label{chapter:marcoteorico}
+\chapter{Preliminares}\label{chapter:preliminares}
 %\addcontentsline{toc}{chapter}{Marco Teórico}
 %===================================================================================
 
 
 \textit{Streptococcus pneumoniae} (neumococo) es una bacteria Gram-positiva, encapsulada y con forma lanceolada, que coloniza las vías respiratorias superiores en humanos. Es un patógeno de relevancia clínica global, asociado tanto a enfermedades invasivas (como meningitis, neumonía bacteriémica y sepsis) como a infecciones no invasivas (otitis media aguda y sinusitis).
 
+
+
 \section{Características clave}
 \begin{itemize}
-    \item \textbf{Variabilidad serotípica}: Existen más de 90 serotipos diferenciados por la composición de su cápsula polisacárida, aunque aproximadamente 20 son responsables de la mayoría de los casos de enfermedad invasiva.
-    \item \textbf{Mecanismos de patogenicidad}:
-    \begin{itemize}
-        \item Evasión inmunológica mediada por la cápsula polisacárida, que dificulta la fagocitosis.
-        \item Producción de toxinas como la neumolisina, que daña las células del hospedero.
-        \item Presencia de adhesinas que facilitan la colonización de la nasofaringe.
-    \end{itemize}
+    \item \textbf{Variabilidad serotípica}: Existen más de 90 serotipos diferenciados por la composición de su cápsula polisacárida, aunque apenas 12 de ellos son responsables de mas del 80\% de las infecciones neumocóccicas invasoras\cite{PREADOJ2001}
     \item \textbf{Poblaciones vulnerables}: Lactantes, adultos mayores (mayores de 65 años) e individuos inmunocomprometidos presentan mayor riesgo de infección grave.
 \end{itemize}
 
@@ -47,7 +43,7 @@ Los linfocitos B son fundamentales en la defensa frente a \textit{S. pneumoniae}
     \begin{itemize}
         \item Transferencia placentaria de IgG (especialmente IgG1) mediante el receptor FcRn.
         \item Protección adicional a través de IgA secretora en la leche materna.
-        \item Posible \textit{blunting} (interferencia de anticuerpos maternos con la respuesta vacunal), aunque su impacto clínico es limitado.
+        \item Posible \textit{blunting} (interferencia de anticuerpos maternos con la respuesta vacunal), aunque su impacto clínico es limitado.\cite{AEP2023Blunting}
     \end{itemize}
     \item \textbf{Desarrollo inmune}: El sistema inmunitario neonatal es funcional pero inmaduro, dependiendo inicialmente de la inmunidad materna.
 \end{itemize}
@@ -71,33 +67,20 @@ Las vacunas antineumocócicas conjugadas (PCV) emplean polisacáridos capsulares
 \subsection{Cobertura y correlatos de protección}
 Las formulaciones actuales cubren los serotipos más prevalentes y virulentos. Los correlatos de protección pueden variar según el serotipo y la vacuna específica, y son utilizados como criterios en ensayos clínicos y en la evaluación de programas de vacunación \cite{Snedecor2020a}.
 
-% \section{Modelado computacional aplicado}
+\section{Examen ELISA}
 
-% El modelado computacional es esencial para comprender y predecir la respuesta inmune a las vacunas neumocócicas, tanto a nivel individual como poblacional. Los enfoques más relevantes identificados en la literatura reciente incluyen:
+El examen ELISA (Ensayo de Inmunoabsorción Ligado a Enzima, por sus siglas en inglés) es una técnica inmunoenzimática ampliamente utilizada para la detección y cuantificación específica de antígenos o anticuerpos en muestras biológicas. El principio fundamental del ELISA se basa en la unión específica entre un anticuerpo y un antígeno, donde uno de estos componentes está inmovilizado en una superficie sólida, generalmente una placa de microtitulación.
 
-% \subsection{Modelos dinámicos de transmisión}
-% Los modelos dinámicos de transmisión, basados en ecuaciones diferenciales, permiten simular la propagación de la enfermedad y el impacto de la vacunación en diferentes grupos poblacionales. Estos modelos suelen incorporar:
-% \begin{itemize}
-%     \item \textbf{Estratificación por edad}: (<2, 2-4, 5-17, 18-49, 50-64, $\geq$65 años).
-%     \item \textbf{Categorías de serotipos}: PCV7-tipo, PCV6-tipo y serotipos no incluidos en la vacuna.
-%     \item \textbf{Parámetros epidemiológicos}: Adquisición de portadores, transmisión, desarrollo de enfermedad invasiva.
-% \end{itemize}
-% La validación de estos modelos se realiza mediante la comparación con datos epidemiológicos observados a lo largo de varios años, mostrando una alta concordancia entre los casos modelados y los reales, lo que respalda su utilidad para predecir el impacto de la vacunación y apoyar decisiones de salud pública \cite{Snedecor2020a,Snedecor2020b}.
+La detección se realiza mediante un anticuerpo conjugado con una enzima, que al reaccionar con un sustrato específico produce un cambio de color proporcional a la cantidad de analito presente en la muestra. Este cambio es medido espectrofotométricamente, permitiendo cuantificar la concentración del antígeno o anticuerpo.
 
-% \subsection{Enfoques de inmunología de sistemas}
-% A nivel individual, los enfoques de inmunología de sistemas emplean herramientas computacionales para analizar firmas inmunes tempranas y su relación con la respuesta vacunal. Por ejemplo, el análisis de perfiles transcripcionales y la dinámica de plasmablastos tras la vacunación permiten identificar biomarcadores predictivos de eficacia inmune, lo que abre la puerta a estrategias de vacunación personalizadas \cite{Obermoser2013}.
+Existen diferentes formatos de ELISA, entre ellos:
 
-% \subsection{Tipos de modelos matemáticos}
-% \begin{itemize}
-%     \item \textbf{Modelos deterministas}: Utilizan ecuaciones diferenciales ordinarias (ODE) para describir la dinámica de poblaciones celulares y la progresión de la enfermedad.
-%     \item \textbf{Modelos estocásticos}: Simulan interacciones a nivel de célula individual (por ejemplo, autómatas celulares), capturando la variabilidad inherente a los sistemas biológicos.
-% \end{itemize}
+\begin{itemize}
+    \item \textbf{ELISA directo}: el anticuerpo marcado con enzima se une directamente al antígeno inmovilizado.
+    \item \textbf{ELISA indirecto}: utiliza un anticuerpo primario para detectar el antígeno y un anticuerpo secundario marcado con enzima para amplificar la señal.
+    \item \textbf{ELISA sándwich}: un anticuerpo captura el antígeno, y otro anticuerpo marcado con enzima detecta el antígeno capturado, aumentando la sensibilidad y especificidad.
+    \item \textbf{ELISA competitivo}: el antígeno en la muestra compite con un antígeno marcado por la unión a un anticuerpo específico.
+\end{itemize}
 
-% \subsection{Aplicaciones y predicción a largo plazo}
-% Los modelos computacionales han demostrado ser capaces de predecir con precisión la incidencia de enfermedad neumocócica invasiva (IPD) durante periodos prolongados (hasta 17 años), así como de evaluar el impacto de cambios en los programas de vacunación (por ejemplo, la transición de PCV7 a PCV13 o la inclusión de adultos en la estrategia vacunal) \cite{Snedecor2020a,Snedecor2020b}.
-
-% \section{Conclusiones de los enfoques computacionales}
-
-% La integración de modelos dinámicos de transmisión y herramientas de inmunología de sistemas proporciona una visión integral del impacto de las vacunas neumocócicas, permitiendo tanto la optimización de políticas de salud pública como el avance hacia una medicina más personalizada.
-
+Esta técnica es fundamental en diagnóstico clínico, investigación biomédica y control de calidad, debido a su alta sensibilidad, especificidad y rapidez \cite{Lequin2005, Crowther2009}.
 

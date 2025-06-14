@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.24)  11 JUN 2025 15:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.24)  14 JUN 2025 01:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -854,20 +854,7 @@ LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
- (./FrontMatter/Dedication.aux) (./FrontMatter/Thanks.aux) (./FrontMatter/SupervisorOpinion.aux) (./FrontMatter/Abstract.aux) (./FrontMatter/Contents.aux) (./MainMatter/Introduction.aux) (./MainMatter/EstadoArte.aux) (./MainMatter/MarcoTeorico.aux) (./MainMatter/Metodologia.aux) (./MainMatter/Resultados.aux
-
-LaTeX Warning: Label `chapter:marcoteorico' multiply defined.
-
-
-LaTeX Warning: Label `fig:etiqueta' multiply defined.
-
-
-LaTeX Warning: Label `fig:etiqueta' multiply defined.
-
-
-LaTeX Warning: Label `fig:etiqueta' multiply defined.
-
-) (./BackMatter/Conclusions.aux) (./BackMatter/Recommendations.aux) (./BackMatter/Bibliography.aux))
+ (./FrontMatter/Dedication.aux) (./FrontMatter/SupervisorOpinion.aux) (./FrontMatter/Abstract.aux) (./FrontMatter/Contents.aux) (./MainMatter/Introduction.aux) (./MainMatter/EstadoArte.aux) (./MainMatter/MarcoTeorico.aux) (./MainMatter/Metodologia.aux) (./MainMatter/Resultados.aux) (./BackMatter/Conclusions.aux) (./BackMatter/Recommendations.aux) (./BackMatter/Bibliography.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
@@ -1034,12 +1021,12 @@ LaTeX Font Warning: Font shape `T1/lmtt/m/In' undefined
 \c@lstlisting=\count367
 LaTeX Info: Redefining \. on input line 105.
 LaTeX Info: Redefining \% on input line 105.
-<Graphics/uhlogo.pdf, id=151, 401.5pt x 513.92pt>
+<Graphics/uhlogo.pdf, id=175, 401.5pt x 513.92pt>
 File: Graphics/uhlogo.pdf Graphic file (type pdf)
 <use Graphics/uhlogo.pdf>
 Package pdftex.def Info: Graphics/uhlogo.pdf  used on input line 108.
 (pdftex.def)             Requested size: 49.79231pt x 63.73012pt.
-<Graphics/qrcode-tesis.png, id=152, 732.7375pt x 732.7375pt>
+<Graphics/qrcode-tesis.png, id=176, 732.7375pt x 732.7375pt>
 File: Graphics/qrcode-tesis.png Graphic file (type png)
 <use Graphics/qrcode-tesis.png>
 Package pdftex.def Info: Graphics/qrcode-tesis.png  used on input line 108.
@@ -1053,17 +1040,9 @@ Package pdftex.def Info: Graphics/qrcode-tesis.png  used on input line 108.
 
 
 ]
-\openout2 = `FrontMatter/Thanks.aux'.
-
- (./FrontMatter/Thanks.tex) [3
-
-
-
-
-]
 \openout2 = `FrontMatter/SupervisorOpinion.aux'.
 
- (./FrontMatter/SupervisorOpinion.tex) [4
+ (./FrontMatter/SupervisorOpinion.tex) [3
 
 
 
@@ -1071,12 +1050,12 @@ Package pdftex.def Info: Graphics/qrcode-tesis.png  used on input line 108.
 ]
 \openout2 = `FrontMatter/Abstract.aux'.
 
- (./FrontMatter/Abstract.tex [5
+ (./FrontMatter/Abstract.tex [4
 
 
 
 
-]) [6
+]) [5
 
 ]
 \openout2 = `FrontMatter/Contents.aux'.
@@ -1118,7 +1097,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
- [7
+ [6
 
 
 
@@ -1130,10 +1109,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 )
 LaTeX Info: Redefining \. on input line 114.
 LaTeX Info: Redefining \% on input line 114.
- [8]
+ [7]
 \openout2 = `MainMatter/Introduction.aux'.
 
- (./MainMatter/Introduction.tex [9
+ (./MainMatter/Introduction.tex [8
 
 
 
@@ -1145,15 +1124,15 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Info: Redefining \. on input line 322.
 LaTeX Info: Redefining \% on input line 322.
- [10{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}])
+ [9{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}])
 LaTeX Info: Redefining \. on input line 119.
 LaTeX Info: Redefining \% on input line 119.
- [11]
+ [10]
 \openout2 = `MainMatter/EstadoArte.aux'.
 
  (./MainMatter/EstadoArte.tex
 Cap\'{\i }tulo 1.
-[12
+[11
 
 
 
@@ -1163,18 +1142,18 @@ LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
 
 Overfull \hbox (30.3221pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10.95 1.2.  INTEGRACIÓN Y VALIDACIÓN DE MODELOS COMPUTACIONALES \T1/lmr/m/n/10.95 13
+\T1/lmr/m/sl/10.95 1.2.  INTEGRACIÓN Y VALIDACIÓN DE MODELOS COMPUTACIONALES \T1/lmr/m/n/10.95 12
  []
 
-[13{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
+[12{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
 
 Overfull \hbox (53.58755pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10.95 1.3.  APLICACIONES DE LOS MODELOS EN ESTRATEGIAS DE VACUNACIÓN \T1/lmr/m/n/10.95 14
+\T1/lmr/m/sl/10.95 1.3.  APLICACIONES DE LOS MODELOS EN ESTRATEGIAS DE VACUNACIÓN \T1/lmr/m/n/10.95 13
  []
 
-[14]
+[13]
 Overfull \hbox (20.26614pt too wide) in paragraph at lines 75--76
 []\T1/lmr/m/n/10.95 Las res-pues-tas in-mu-nes adap-ta-ti-vas fue-ron eva-lua-das al día 7 post-vacunación
  []
@@ -1183,34 +1162,37 @@ LaTeX Info: Redefining \. on input line 76.
 LaTeX Info: Redefining \% on input line 76.
 
 Overfull \hbox (82.63712pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10.95 1.4.  RESPUESTAS INMUNOLÓGICAS ESPECÍFICAS A VACUNAS NEUMOCÓCICAS \T1/lmr/m/n/10.95 15
+\T1/lmr/m/sl/10.95 1.4.  RESPUESTAS INMUNOLÓGICAS ESPECÍFICAS A VACUNAS NEUMOCÓCICAS \T1/lmr/m/n/10.95 14
  []
 
-[15]
+[14]
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
 
 Overfull \hbox (28.41888pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10.95 1.5.  AVANCES EN LA MODELIZACIÓN DE POBLACIONES ESPECÍFICAS \T1/lmr/m/n/10.95 16
+\T1/lmr/m/sl/10.95 1.5.  AVANCES EN LA MODELIZACIÓN DE POBLACIONES ESPECÍFICAS \T1/lmr/m/n/10.95 15
  []
 
-[16])
+[15])
 LaTeX Info: Redefining \. on input line 120.
 LaTeX Info: Redefining \% on input line 120.
- [17]
+ [16]
 \openout2 = `MainMatter/MarcoTeorico.aux'.
 
  (./MainMatter/MarcoTeorico.tex
 Cap\'{\i }tulo 2.
-[18
+[17
 
 
 
 
 ]
-LaTeX Info: Redefining \. on input line 53.
-LaTeX Info: Redefining \% on input line 53.
- [19{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}])
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
+ [18{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}]
+LaTeX Info: Redefining \. on input line 76.
+LaTeX Info: Redefining \% on input line 76.
+ [19])
 LaTeX Info: Redefining \. on input line 121.
 LaTeX Info: Redefining \% on input line 121.
  [20]
@@ -1224,7 +1206,7 @@ Cap\'{\i }tulo 3.
 
 
 ]
-<Graphics/gc.png, id=345, 785.93625pt x 567.11874pt>
+<Graphics/gc.png, id=382, 785.93625pt x 567.11874pt>
 File: Graphics/gc.png Graphic file (type png)
 <use Graphics/gc.png>
 Package pdftex.def Info: Graphics/gc.png  used on input line 73.
@@ -1240,7 +1222,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) h
                                                   \__shipout_drop_firstpage_...
 l.85 
       <./Graphics/gc.png>]
-<Graphics/is.png, id=368, 775.89874pt x 565.11125pt>
+<Graphics/is.png, id=405, 775.89874pt x 565.11125pt>
 File: Graphics/is.png Graphic file (type png)
 <use Graphics/is.png>
 Package pdftex.def Info: Graphics/is.png  used on input line 90.
@@ -1258,64 +1240,18 @@ l.122 \include{MainMatter/Metodologia}
 
  (./MainMatter/Resultados.tex
 Cap\'{\i }tulo 4.
-<Graphics/res.png, id=375, 1047.915pt x 647.41875pt>
-File: Graphics/res.png Graphic file (type png)
-<use Graphics/res.png>
-Package pdftex.def Info: Graphics/res.png  used on input line 10.
-(pdftex.def)             Requested size: 360.0pt x 222.41133pt.
-<Graphics/res1.png, id=376, 1047.915pt x 647.41875pt>
-File: Graphics/res1.png Graphic file (type png)
-<use Graphics/res1.png>
-Package pdftex.def Info: Graphics/res1.png  used on input line 17.
-(pdftex.def)             Requested size: 360.0pt x 222.41133pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Graphics/res2.png, id=377, 1047.915pt x 647.41875pt>
-File: Graphics/res2.png Graphic file (type png)
-<use Graphics/res2.png>
-Package pdftex.def Info: Graphics/res2.png  used on input line 24.
-(pdftex.def)             Requested size: 360.0pt x 222.41133pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Graphics/res3.png, id=378, 1047.915pt x 647.41875pt>
-File: Graphics/res3.png Graphic file (type png)
-<use Graphics/res3.png>
-Package pdftex.def Info: Graphics/res3.png  used on input line 31.
-(pdftex.def)             Requested size: 360.0pt x 222.41133pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [25
+[25
 
 
 
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.124 \include{MainMatter/Resultados}
-                                      <./Graphics/res.png>] [26
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.124 \include{MainMatter/Resultados}
-                                     
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.124 \include{MainMatter/Resultados}
-                                      <./Graphics/res1.png> <./Graphics/res2.png>] [27
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.124 \include{MainMatter/Resultados}
-                                      <./Graphics/res3.png>]
+])
+LaTeX Info: Redefining \. on input line 124.
+LaTeX Info: Redefining \% on input line 124.
+ [26]
 \openout2 = `BackMatter/Conclusions.aux'.
 
- (./BackMatter/Conclusions.tex) [28
+ (./BackMatter/Conclusions.tex) [27
 
 
 
@@ -1323,7 +1259,7 @@ l.124 \include{MainMatter/Resultados}
 ]
 \openout2 = `BackMatter/Recommendations.aux'.
 
- (./BackMatter/Recommendations.tex) [29
+ (./BackMatter/Recommendations.tex) [28
 
 
 
@@ -1335,20 +1271,40 @@ l.124 \include{MainMatter/Resultados}
 \tf@brf=\write7
 \openout7 = `Thesis.brf'.
 
- [30
+ [29
 
 
 
 
-]))
+]
+Underfull \hbox (badness 6893) in paragraph at lines 77--77
+[]\T1/lmr/m/n/10.95 Asociación Es-pa-ño-la de Pe-dia-tría (AEP).  Ma-nual de in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\T1/lmr/m/n/10.95 mu-ni-za-cio-nes: as-pec-tos in-mu-no-ló-gi-cos de la va-cu-na-ción ma-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\T1/lmr/m/n/10.95 ter-nal.  [][]$\T1/lmtt/c/it/10.95 https : / / vacunasaep . org / profesionales / noticias /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\T1/lmtt/c/it/10.95 manual-[]de-[]inmunizaciones-[]inmunologia-[]vacunacion-[]maternal$[][]\T1/lmr/m/n/10.95 ,
+ []
+
+))
 LaTeX Info: Redefining \. on input line 131.
 LaTeX Info: Redefining \% on input line 131.
- [31] (./Thesis.aux
+ [30] (./Thesis.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
- (./FrontMatter/Dedication.aux) (./FrontMatter/Thanks.aux) (./FrontMatter/SupervisorOpinion.aux) (./FrontMatter/Abstract.aux) (./FrontMatter/Contents.aux) (./MainMatter/Introduction.aux) (./MainMatter/EstadoArte.aux) (./MainMatter/MarcoTeorico.aux) (./MainMatter/Metodologia.aux) (./MainMatter/Resultados.aux) (./BackMatter/Conclusions.aux) (./BackMatter/Recommendations.aux) (./BackMatter/Bibliography.aux))
+ (./FrontMatter/Dedication.aux) (./FrontMatter/SupervisorOpinion.aux) (./FrontMatter/Abstract.aux) (./FrontMatter/Contents.aux) (./MainMatter/Introduction.aux) (./MainMatter/EstadoArte.aux) (./MainMatter/MarcoTeorico.aux) (./MainMatter/Metodologia.aux) (./MainMatter/Resultados.aux) (./BackMatter/Conclusions.aux) (./BackMatter/Recommendations.aux) (./BackMatter/Bibliography.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1357,27 +1313,24 @@ L3 programming layer <2024-01-22>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 866FEC4071AAAD37A52B8293AA776D97;8277.
+(rerunfilecheck)             Checksum: 27C2448FB00866CDA01A20678EC30DAB;9678.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 2B55F135DFDC31B75E68B623C374C09F;910.
+(rerunfilecheck)             Checksum: 3C2F3FF1FA396A083040EAE286B19409;1074.
  ) 
 Here is how much of TeX's memory you used:
- 28210 strings out of 474222
- 516048 string characters out of 5748732
+ 28194 strings out of 474222
+ 515217 string characters out of 5748732
  1935975 words of memory out of 5000000
- 49716 multiletter control sequences out of 15000+600000
+ 49703 multiletter control sequences out of 15000+600000
  639750 words of font info for 94 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  105i,12n,107p,1415b,801s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Thesis.pdf (31 pages, 703800 bytes).
+Output written on Thesis.pdf (30 pages, 462698 bytes).
 PDF statistics:
- 537 PDF objects out of 1000 (max. 8388607)
- 453 compressed objects within 5 object streams
- 112 named destinations out of 1000 (max. 500000)
- 341 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 564 PDF objects out of 1000 (max. 8388607)
+ 489 compressed objects within 5 object streams
+ 116 named destinations out of 1000 (max. 500000)
+ 369 words of extra memory for PDF output out of 10000 (max. 10000000)
 
