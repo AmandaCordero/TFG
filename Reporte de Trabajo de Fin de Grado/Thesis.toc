@@ -35,10 +35,13 @@
 \contentsline {section}{\numberline {3.3}Sistema Inmune}{23}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Experimentación y Resultados}{25}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Datos para la Validación del Modelo}{25}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Metaheurística para la Exploración del Espacio de Parámetros}{25}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Métrica de Optimización}{25}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Proceso de Validación con el Grupo de Test}{25}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Discusión de Resultados}{26}{section.4.5}%
-\contentsline {chapter}{Conclusiones}{27}{chapter*.6}%
-\contentsline {chapter}{Recomendaciones}{28}{chapter*.7}%
-\contentsline {chapter}{Referencias}{29}{chapter*.8}%
+\contentsline {subsection}{\numberline {4.1.1}Limpieza de Datos}{25}{subsection.4.1.1}%
+\contentsline {subsubsection}{Datos Faltantes}{26}{section*.8}%
+\contentsline {subsubsection}{Valores inconsistentes}{26}{section*.10}%
+\contentsline {section}{\numberline {4.2}Entrenamiento}{27}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Exploración del espacio de parámetros}{27}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Métrica de Optimización}{28}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Validación}{29}{section.4.3}%
+\contentsline {chapter}{Conclusiones}{31}{chapter*.17}%
+\contentsline {chapter}{Recomendaciones}{32}{chapter*.18}%
+\contentsline {chapter}{Referencias}{33}{chapter*.19}%
