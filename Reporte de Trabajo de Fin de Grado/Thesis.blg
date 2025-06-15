@@ -20,45 +20,45 @@ Warning--entry type for "UC3M2022" isn't style-file defined
 Warning--entry type for "DW2023" isn't style-file defined
 --line 93 of file Bibliography.bib
 Warning--empty journal in WHO2019
-You've used 21 entries,
+You've used 23 entries,
             1791 wiz_defined-function locations,
-            583 strings with 7633 characters,
-and the built_in function-call counts, 3385 in all, are:
-= -- 249
-> -- 210
+            595 strings with 7916 characters,
+and the built_in function-call counts, 3720 in all, are:
+= -- 280
+> -- 222
 < -- 0
-+ -- 81
-- -- 60
-* -- 150
-:= -- 612
-add.period$ -- 63
-call.type$ -- 21
-change.case$ -- 19
++ -- 86
+- -- 63
+* -- 162
+:= -- 666
+add.period$ -- 70
+call.type$ -- 23
+change.case$ -- 20
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 168
-empty$ -- 333
-format.name$ -- 60
-if$ -- 733
+cite$ -- 24
+duplicate$ -- 188
+empty$ -- 371
+format.name$ -- 63
+if$ -- 813
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 22
-newline$ -- 108
-num.names$ -- 21
-pop$ -- 93
+int.to.str$ -- 23
+missing$ -- 26
+newline$ -- 119
+num.names$ -- 23
+pop$ -- 103
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 57
+skip$ -- 62
 stack$ -- 0
 substring$ -- 0
-swap$ -- 21
+swap$ -- 23
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 21
-width$ -- 23
-write$ -- 215
+while$ -- 23
+width$ -- 25
+write$ -- 240
 (There were 3 warnings)

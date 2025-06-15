@@ -268,6 +268,29 @@ donde \(\|\cdot\|_2\) denota la distancia euclidiana.
 
 Esta métrica es relevante porque permite evaluar de forma robusta la similitud entre nubes de puntos, incluso cuando los estos no están emparejados uno a uno. 
 
+\subsection{Distribución de Boltzmann}
+
+La \textbf{distribución de Boltzmann} es un concepto fundamental en física estadística que describe cómo las partículas en un sistema en equilibrio térmico distribuyen su energía entre los diferentes estados accesibles \cite{Reif1965}. Esta distribución establece que la probabilidad de encontrar una partícula en un estado con energía $ E_i $ a una temperatura $ T $ está dada por:
+
+\begin{equation}
+    P(E_i) = \frac{1}{Z} g_i e^{-\frac{E_i}{k_B T}}
+\end{equation}
+donde:
+
+    
+- $ P(E_i) $: probabilidad del estado con energía $ E_i $,
+    
+- $ g_i $: degeneración del nivel de energía (número de estados con la misma energía),
+    
+- $ k_B $: constante de Boltzmann,
+    
+- $ T $: temperatura absoluta,
+    
+- $ Z $: función de partición, definida como $ Z = \sum_i g_i e^{-\frac{E_i}{k_B T}} $, y que normaliza la distribución para que la suma de todas las probabilidades sea igual a uno.
+
+
+Esta distribución es válida para sistemas clásicos en equilibrio térmico y es especialmente útil cuando las partículas son distinguibles y las interacciones entre ellas pueden considerarse débiles o promediadas. 
+
 \subsection{Acercamiento a la concurrencia}
 La programación concurrente es un paradigma esencial para maximizar la eficiencia en sistemas modernos, permitiendo la ejecución aparentemente simultánea de múltiples tareas. Su dominio es crucial para desarrollar aplicaciones escalables y receptivas, aunque introduce complejidades que requieren técnicas especializadas para garantizar la corrección y estabilidad del software. Los contenido tratados en lo adelante están fundamentados en lo tratado en \cite{tanenbaum2008modern}.
 

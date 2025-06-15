@@ -8,24 +8,23 @@
 En este capítulo se describe la metodología y la estructura empleada en la implementación de un simulador computacional del sistema inmune de un lactante para modelar la respuesta a vacunas conjugadas neumocócicas.
 
 El simulador se estructura en dos capas principales:
-\begin{enumerate}
-    \item Modelado de agentes biológicos:
-        \begin{enumerate}
+\begin{itemize}
+    \item Modelado de componentes biológicos:
+        \begin{itemize}
             \item Antígenos
             \item Células B
-        \end{enumerate}
+        \end{itemize}
     \item Entornos de Interacción:
-        \begin{enumerate}
+        \begin{itemize}
             \item Centros germinales
             \item Sistema inmune
-        \end{enumerate}
-\end{enumerate}
-\section{Modelado de agentes biológicos}
+        \end{itemize}
+\end{itemize}
+\section{Modelado de componentes biológicos}
 \begin{enumerate}
     
-    \item \texttt{Antígeno}: Representado por un vector de epítopos, cantidad de polisacárido, proteína portadora y factor de inmunogenicidad.
-    \item \texttt{Célula B}: 
-    Representada por un identificador, un vector de receptores, un serotipo asociado que representa el antígeno que ha reconocido y una afinidad por este.
+    \item \texttt{Antígeno}: Cualquier sustancia que haga que el cuerpo produzca una respuesta inmunitaria contra ella. Conformado por epítopo\footnote{Parte de una molécula que será reconocida por un anticuerpo y a la cual se unirá.} y una proteína portadora. En el estudio este se modela como un objeto con propiedades: \texttt{id} (entero que representa el identificador del antígeno), \texttt{serotype} (\textit{string} que representa código del serotipo), \texttt{carrier\_protein} (\textit{string} que representa la proteína portadora) y \texttt{epitope\_vector} (vector de \textit{float} que representa el epítopo).
+    \item \texttt{Célula B}: Cualquier linfocito encargado de reconocer y responder a un antígeno específico mediante la producción de anticuerpos. Conformada por su receptor BCR  (receptor de célula B), que reconoce y se une a un epítopo  particular. En el estudio, esta se modela como un objeto con propiedades: \texttt{id} (entero que representa el identificador de la célula), \texttt{bcr\_vector} (vector de \textit{float} que representa el  BCR), \texttt{associated\_serotype} (\textit{string} que representa código del serotipo asociado al antígeno reconocido) y \texttt{affinity} (\textit{float} que represneta la afinidad de unión al epítopo).
 \end{enumerate}
 
     
@@ -33,13 +32,11 @@ El simulador se estructura en dos capas principales:
 
 \section{Centros Germinales}
 
-Los centros germinales constituyen conglomerados de células B que reconocen el mismo antígeno en los cuales estas se dividen rápidamente.
-\subsection*{Procesos Inmunológicos clave}
-En los centros germinales ocurren procesos en función de la especialización y diferenciación de las células B.
-\begin{enumerate}
-    \item \textbf{Cálculo de afinidad:}
+Los centros germinales constituyen conglomerados de células B que reconocen el mismo antígeno en los cuales ocurren diferentes procesos inmunológicos.
 
-    La afinidad entre una célula B y un antígeno es una medida fundamental que cuantifica la fuerza de interacción entre el receptor de la célula B (BCR por sus siglas en inglés) y el epítopo del antígeno. Este cálculo se basa en la similitud estructural entre sus vectores característicos, modelados en un espacio n-dimensional donde cada dimensión representa una propiedad fisicoquímica relevante (como carga eléctrica, hidrofobicidad o tamaño molecular).
+    \subsection*{Cálculo de afinidad:}
+
+    La afinidad entre una célula B y un antígeno es una medida fundamental que cuantifica la fuerza de interacción entre el BCR y el epítopo del antígeno. Este cálculo se basa en la similitud estructural entre sus vectores característicos.
 
     Definimos la afinidad $A$ mediante la transformación exponencial de la distancia euclidiana entre los vectores:
 
@@ -80,7 +77,7 @@ En los centros germinales ocurren procesos en función de la especialización y 
     %     \item Penalización exponencial de disparidades estructurales
     %     \item Eficiencia de cálculo con operaciones vectorizadas
     % \end{itemize}
-    \item \textbf{Selección de células B mediante distribución de Boltzmann:}
+    \subsection*{Selección de células B mediante distribución de Boltzmann:}
 
 La selección de las células B que sobreviven en cada generación se realiza mediante un algoritmo estocástico basado en la distribución de Boltzmann, que asigna probabilidades de supervivencia proporcionales a la afinidad de cada célula mientras mantiene diversidad poblacional. Este proceso consta de tres etapas:
 
@@ -140,14 +137,12 @@ La selección de las células B que sobreviven en cada generación se realiza me
 %     \item Control preciso de presión selectiva mediante $T$
 %     \item Implementación estable con normalización exponencial
 % \end{itemize}
-    \item \textbf{Diferenciación:}
+    \subsection*{Diferenciación:}
     
-    Según su afinidad, las células B pueden diferenciarse en:
-        \begin{enumerate}
-            \item Células de memoria 
-            \item Células plasmáticas 
-        \end{enumerate}
-    \item \textbf{Hipermutación somática de células B:}
+    Según su afinidad, las células B pueden diferenciarse en células plasmáticas o de memoria \cite{murphy2017janeway}.
+
+    En la simulación se establecen umbrales en la afinidad para esta clasificación.
+    \subsection*{Hipermutación somática de células B:}
 
 El proceso de mutación simula la hipermutación somática que ocurre en los centros germinales durante la respuesta inmune adaptativa. Cada componente del vector receptor $\vec{r}_B$ de una célula B tiene una probabilidad $p_m$ de sufrir una modificación estocástica, modelada como:
 
@@ -188,31 +183,14 @@ r_i' = \text{clip}\left(r_i + \delta_i, 0, 1\right) \quad \text{donde} \quad \de
     \item \textit{No direccionalidad:} Los cambios son estocásticos, no guiados por el antígeno
 \end{enumerate}
 
-\noindent \textbf{Implementación computacional:}
-\begin{itemize}
-    \item \textit{Vectorización:} Uso eficiente de operaciones NumPy para grandes poblaciones
-    
-    \item \textit{Modelo de mutación aditiva:} Alteraciones gaussianas independientes por componente
-    
-    \item \textit{Generación de nuevas variantes:} Creación de instancias modificadas sin alterar células originales
-\end{itemize}
-
-\noindent \textbf{Contexto evolutivo:} Combinado con selección de Boltzmann, este mecanismo permite:
-\begin{itemize}
-    \item Exploración local del espacio de receptores alrededor de soluciones prometedoras
-    
-    \item Escape de óptimos locales mediante mutaciones beneficiosas
-    
-    \item Mantenimiento de diversidad clonal durante la respuesta inmune
-\end{itemize}
-
+ 
 % \noindent \textbf{Ejemplo numérico:} Para un receptor $[0.8, 0.5]$ con $p_m=0.1$, $\sigma=0.05$:
 % \begin{itemize}
 %     \item Componente 1: No muta (prob $>0.1$) $\rightarrow 0.8$
 %     \item Componente 2: Mutación con $\delta = +0.03$ $\rightarrow 0.53$
 %     \item Receptor mutado: $[0.8, 0.53]$
 % \end{itemize}
-\end{enumerate}
+
 
 Las células B ingresan al centro germinal tras calcular su afinidad inicial con el antígeno. Dentro del mismo, el proceso de selección identifica las células candidatas para abandonarlo, las cuales se diferencian en células plasmáticas o de memoria antes de reintegrarse al sistema inmunológico. Las células no seleccionadas enfrentan dos destinos posibles: muerte por apoptosis (pérdida energética), o supervivencia con división y mutación. Para este último grupo, se aplica hipermutación somática a sus receptores y se recalcula su afinidad antigénica, reiniciando el ciclo, como se muestra en la figura \ref{fig:cg}. Este proceso iterativo continúa hasta la desaparición de todas las células del centro germinal. 
 
@@ -225,9 +203,12 @@ Las células B ingresan al centro germinal tras calcular su afinidad inicial con
 
 \section{Sistema Inmune}
 
-El sistema inmune consta de un grupo de células B \textit{naive} que se dividen y mutan o mueren. Ante la presencia de antígeno estas células pueden pasar a formar parte de centros germinales como se muestra en la figura \ref{fig:is}. 
+El sistema inmune consta de un grupo de células B \textit{naive} que se dividen y mutan o mueren. Ante la presencia de antígeno estas células pueden pasar a formar parte de centros germinales. 
 
-Al finalizar cada ciclo, los centros germinales liberan al sistema inmunológico células B diferenciadas en células plasmáticas y células de memoria. La concentración de anticuerpos generada por estas sirve como indicador cuantitativo de la respuesta inmunológica del individuo.
+\subsection*{Proceso de llenado de los centros germinales}
+Las células B actúan como recursos que pueden ser reclutados por los antígenos (según su afinidad por el mismo) para formar parte de un centro germinal. En el modelo, se crea un hilo (\textit{thread}) por cada antígeno para simular de forma concurrente el proceso de selección de células B en los centros germinales. Este enfoque permite que todos los antígenos tengan igual prioridad al acceder a dichos recursos. Sin embargo, surge el problema de que dos antígenos podrían intentar reclutar la misma célula B simultáneamente. Para evitar esta condición de carrera, se implementa un mecanismo de exclusión mutua (\textit{mutex}) que garantiza que solo un antígeno pueda analizar una célula B en un momento dado.
+
+Al finalizar cada ciclo, los centros germinales liberan al sistema inmunológico células B diferenciadas en células plasmáticas y células de memoria. La concentración de anticuerpos generada por estas sirve como indicador cuantitativo de la respuesta inmunológica del individuo. Este proceso se muestra en la figura \ref{fig:is}.
 
 \begin{figure}[H] % h = here (aquí)
     \centering

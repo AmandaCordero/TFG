@@ -85,6 +85,11 @@ Marco Dorigo, Vittorio Maniezzo, and Alberto Colorni.
 \newblock Ant system: optimization by a colony of cooperating agents.
 \newblock {\em IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)}, 1996.
 
+\bibitem{Reif1965}
+Frederick Reif.
+\newblock {\em Fundamentals of Statistical and Thermal Physics}.
+\newblock McGraw-Hill, New York, 1965.
+
 \bibitem{tanenbaum2008modern}
 Andrew~S. Tanenbaum.
 \newblock {\em Modern Operating Systems}.
@@ -104,5 +109,11 @@ Rajagopal Murugan, Lisa Buchauer, Gianna Triller, Cornelia Kreschel, Giulia Cost
 Andreas Handel.
 \newblock A software package for immunologists to learn simulation modeling.
 \newblock {\em BMC Immunology}, 2020.
+
+\bibitem{murphy2017janeway}
+Kenneth Murphy and Casey Weaver.
+\newblock {\em Janeway's Immunobiology}.
+\newblock Garland Science, New York, 9th edition, 2017.
+\newblock Chapter 9: The Humoral Immune Response — Differentiation of B Cells into Plasma Cells and Memory B Cells.
 
 \end{thebibliography}

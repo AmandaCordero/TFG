@@ -23,9 +23,10 @@
 \contentsline {subsubsection}{Métrica Basada en Trabajo de Transformación}{17}{section*.16}%
 \contentsline {subsubsection}{Métricas de Clustering}{18}{section*.17}%
 \contentsline {subsubsection}{Distancia Chamfer}{18}{section*.18}%
-\contentsline {subsection}{\numberline {1.2.3}Acercamiento a la concurrencia}{19}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.3}Distribución de Boltzmann}{19}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Acercamiento a la concurrencia}{19}{subsection.1.2.4}%
 \contentsline {subsubsection}{Concurrencia vs. Paralelismo}{19}{section*.19}%
-\contentsline {subsubsection}{Hilos}{19}{section*.20}%
+\contentsline {subsubsection}{Hilos}{20}{section*.20}%
 \contentsline {subsubsection}{Retos en Programación Concurrente}{20}{section*.21}%
 \contentsline {chapter}{\numberline {2}Estado del Arte}{21}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Enfoques Computacionales Predominantes en la Modelación Inmunológica}{21}{section.2.1}%
@@ -53,20 +54,20 @@
 \contentsline {subsection}{\numberline {2.6.2}Incorporación de Modelos Educativos}{28}{subsection.2.6.2}%
 \contentsline {section}{\numberline {2.7}Conclusión}{28}{section.2.7}%
 \contentsline {chapter}{\numberline {3}Metodología}{30}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Modelado de agentes biológicos}{30}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Centros Germinales}{30}{section.3.2}%
+\contentsline {section}{\numberline {3.1}Modelado de componentes biológicos}{30}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Centros Germinales}{31}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Sistema Inmune}{35}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Experimentación y Resultados}{37}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Datos para la Validación del Modelo}{37}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Limpieza de Datos}{37}{subsection.4.1.1}%
-\contentsline {subsubsection}{Análisis de Datos Faltantes}{38}{section*.25}%
-\contentsline {subsubsection}{Valores inconsistentes}{40}{section*.28}%
+\contentsline {subsubsection}{Análisis de Datos Faltantes}{38}{section*.29}%
+\contentsline {subsubsection}{Valores inconsistentes}{40}{section*.32}%
 \contentsline {section}{\numberline {4.2}Entrenamiento}{41}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Exploración del espacio de parámetros}{41}{subsection.4.2.1}%
-\contentsline {subsubsection}{Soluciones vecinas:}{41}{section*.31}%
-\contentsline {subsubsection}{Criteros de parada:}{42}{section*.32}%
+\contentsline {subsubsection}{Soluciones vecinas:}{41}{section*.35}%
+\contentsline {subsubsection}{Criteros de parada:}{42}{section*.36}%
 \contentsline {subsection}{\numberline {4.2.2}Función Objetivo}{42}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}Validación}{42}{section.4.3}%
-\contentsline {chapter}{Conclusiones}{45}{chapter*.37}%
-\contentsline {chapter}{Recomendaciones}{46}{chapter*.38}%
-\contentsline {chapter}{Referencias}{47}{chapter*.39}%
+\contentsline {chapter}{Conclusiones}{45}{chapter*.41}%
+\contentsline {chapter}{Recomendaciones}{46}{chapter*.42}%
+\contentsline {chapter}{Referencias}{47}{chapter*.43}%
