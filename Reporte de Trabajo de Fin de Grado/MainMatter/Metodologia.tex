@@ -7,6 +7,44 @@
 
 En este capítulo se describe la metodología y la estructura empleada en la implementación de un simulador computacional del sistema inmune de un lactante para modelar la respuesta a vacunas conjugadas neumocócicas.
 
+\section{Parámetros}
+\begin{table}[H]
+\centering
+\caption{Parámetros utilizados en la simulación del sistema inmune.}
+\label{tab:parametros_simulacion}
+\begin{tabular}{|l|p{2cm}|p{5cm}|}
+\hline
+\textbf{Parámetro} & \textbf{Tipo} & \textbf{Descripción} \\ \hline
+duration\_days & Entero & Duración total de la simulación en días. \\ \hline
+vaccination\_schedule & Lista de enteros & Días en los que se aplican las vacunas (dosis 1, 2 y refuerzo). \\ \hline
+lf\_decay & Flotante & Tasa de decaimiento natural de linfocitos no activos. \\ \hline
+decay\_factor & Flotante & Factor de decaimiento de anticuerpos. \\ \hline
+plasma\_production\_factor & Diccionario (str: float) & Tasa de producción de anticuerpos a partir de células plasmáticas por cada serotipo. \\ \hline
+memory\_production\_factor & Diccionario (str: float) & Tasa de producción de anticuerpos a partir de células de memoria activadas por cada serotipo. \\ \hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\caption{Parámetros utilizados en la simulación del sistema inmune.}
+\label{tab:parametros_simulacion2}
+\begin{tabular}{|l|p{2cm}|p{5cm}|}
+\hline
+\textbf{Parámetro} & \textbf{Tipo} & \textbf{Descripción} \\ \hline
+
+affinity\_threshold\_memory & Flotante & Umbral mínimo de afinidad para que una célula B se convierta en célula de memoria. \\ \hline
+affinity\_threshold\_plasma & Flotante & Umbral mínimo de afinidad para que una célula B se diferencie en célula plasmática. \\ \hline
+mutation\_p & Flotante & Probabilidad de mutación de una célula B. \\ \hline
+mutation\_rate & Flotante & probabilidad de mutar cada componente del vector de receptores. \\ \hline
+mutation\_strength & Flotante & Intensidad del cambio en la afinidad tras una mutación celular. \\ \hline
+temperature & Flotante & regula la presión selectiva. \\ \hline
+THRESHOLD & Flotante & Umbral mínimo de afinidad para que una célula B entre a un centro germinal. \\ \hline
+\end{tabular}
+\end{table}
+
+
+\section{Estructura}
 El simulador se estructura en dos capas principales:
 \begin{itemize}
     \item Modelado de componentes biológicos:

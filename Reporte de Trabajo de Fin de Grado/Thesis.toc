@@ -46,20 +46,22 @@
 \contentsline {subsection}{\numberline {2.4.2}Caracterización de Respuestas Inmunes Adaptativas}{26}{subsection.2.4.2}%
 \contentsline {section}{\numberline {2.5}Conclusión}{26}{section.2.5}%
 \contentsline {chapter}{\numberline {3}Metodología}{27}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Modelado de componentes biológicos}{27}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Centros Germinales}{28}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Sistema Inmune}{32}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Experimentación y Resultados}{34}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Datos para la Validación del Modelo}{34}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Limpieza de Datos}{34}{subsection.4.1.1}%
-\contentsline {subsubsection}{Análisis de Datos Faltantes}{35}{section*.29}%
-\contentsline {subsubsection}{Valores inconsistentes}{37}{section*.32}%
-\contentsline {section}{\numberline {4.2}Entrenamiento}{38}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Exploración del espacio de parámetros}{38}{subsection.4.2.1}%
-\contentsline {subsubsection}{Soluciones vecinas:}{38}{section*.35}%
-\contentsline {subsubsection}{Criteros de parada:}{39}{section*.36}%
-\contentsline {subsection}{\numberline {4.2.2}Función Objetivo}{39}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Validación}{39}{section.4.3}%
-\contentsline {chapter}{Conclusiones}{42}{chapter*.41}%
-\contentsline {chapter}{Recomendaciones}{43}{chapter*.42}%
-\contentsline {chapter}{Referencias}{44}{chapter*.43}%
+\contentsline {section}{\numberline {3.1}Parámetros}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Estructura}{28}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Modelado de componentes biológicos}{28}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Centros Germinales}{29}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Sistema Inmune}{33}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Experimentación y Resultados}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Datos para la Validación del Modelo}{35}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Limpieza de Datos}{35}{subsection.4.1.1}%
+\contentsline {subsubsection}{Análisis de Datos Faltantes}{36}{section*.29}%
+\contentsline {subsubsection}{Valores inconsistentes}{38}{section*.32}%
+\contentsline {section}{\numberline {4.2}Entrenamiento}{39}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Exploración del espacio de parámetros}{39}{subsection.4.2.1}%
+\contentsline {subsubsection}{Soluciones vecinas:}{39}{section*.35}%
+\contentsline {subsubsection}{Criteros de parada:}{40}{section*.36}%
+\contentsline {subsection}{\numberline {4.2.2}Función Objetivo}{40}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Validación}{40}{section.4.3}%
+\contentsline {chapter}{Conclusiones}{43}{chapter*.41}%
+\contentsline {chapter}{Recomendaciones}{44}{chapter*.42}%
+\contentsline {chapter}{Referencias}{45}{chapter*.43}%
