@@ -125,31 +125,26 @@ Para el entrenamiento del modelo se tomó el 70\% de los datos. este proceso tie
 
 \subsection{Exploración del espacio de parámetros}
 
-Para explorar el espacio de parámetros durante el proceso de entrenamiento se utilizó la metaheurística de Recocido Simulado (\textit{Simulated Annealing}), un algoritmo inspirado en el proceso físico de enfriamiento de materiales. Este método permite realizar una búsqueda estocástica eficiente que evita quedar atrapado en óptimos locales, gracias a su capacidad para aceptar temporalmente soluciones peores con una probabilidad controlada por un parámetro denominado temperatura.
+Para explorar el espacio de parámetros durante el proceso de entrenamiento se utilizó la metaheurística de Recocido Simulado (\textit{Simulated Annealing}). Este método permitió realizar una búsqueda estocástica evitando quedar atrapado en óptimos locales, gracias a su capacidad para aceptar temporalmente soluciones peores con una probabilidad controlada por un parámetro denominado temperatura.
 
-El algoritmo comienza con una temperatura inicial alta que permite explorar ampliamente el espacio de soluciones, aceptando cambios incluso si empeoran la función objetivo. A medida que avanza el proceso, la temperatura decrece siguiendo un protocolo de enfriamiento cuidadosamente diseñado, reduciendo gradualmente la probabilidad de aceptar soluciones peores y enfocando la búsqueda en regiones de baja energía o costo.
+El algoritmo comienza con una temperatura inicial 1.0 que permite explorar el espacio de soluciones, aceptando cambios incluso si empeoran la función objetivo. A medida que avanza el proceso, la temperatura decrece siguiendo un protocolo de enfriamiento, reduciendo gradualmente la probabilidad de aceptar soluciones peores.
 
-% Esta estrategia facilita la convergencia hacia un mínimo global o soluciones cercanas, especialmente en problemas con múltiples óptimos locales o funciones objetivo complejas y no continuas. La implementación del Recocido Simulado en nuestro entrenamiento incluyó la definición de parámetros clave como la temperatura inicial y final, la tasa y el método de enfriamiento, así como criterios de convergencia basados en el número de iteraciones y la estabilidad de las soluciones encontradas.
+\subsubsection{Soluciones vecinas:}
+Estas se generan seleccionando aleatoriamente uno de los parámetros a estimar y añadiendole un ajuste $\delta$.
+
+\subsubsection{Criteros de parada:}
+\begin{itemize}
+    \item \textbf{Enfriamiento del metal:} la temperatura es menor que \texttt{1e-3}.
+    \item \textbf{Máximo de iteraciones:} se realizan más de 100 iteraciones.
+\end{itemize}
 
 
-\subsection{Métrica de Optimización}
 
-La métrica utilizada como función objetivo durante el entrenamiento del modelo es la \textit{distancia de Chamfer}, una medida que cuantifica la similitud entre dos conjuntos de puntos en el espacio. La misma es especialmente adecuada para comparar nubes de puntos, ya que evalúa la proximidad bidireccional entre cada punto de un conjunto y su vecino más cercano en el otro conjunto.
+\subsection{Función Objetivo}
 
-El cálculo de la distancia de Chamfer se realiza en dos pasos principales:
+La métrica utilizada como función objetivo durante el entrenamiento del modelo es la \textit{distancia de Chamfer} ($D_{\mathrm{Chamfer}}(S_1, S_2)$, donde \( S_1 \) y \( S_2 \) son los conjuntos de puntos simulados y reales), que es adecuada para comparar nubes de puntos, ya que evalúa la proximidad bidireccional entre cada punto de un conjunto y su vecino más cercano en el otro conjunto.
 
-\begin{enumerate}
-    \item Para cada punto en el primer conjunto, se encuentra el punto más cercano en el segundo conjunto y se calcula la distancia euclidiana entre ellos. Se obtiene el promedio de estas distancias.
-    \item Se repite el procedimiento invirtiendo los roles de los conjuntos, es decir, desde el segundo conjunto hacia el primero.
-\end{enumerate}
-
-Finalmente, la distancia de Chamfer se define como la suma (o promedio) de estos dos valores, formalmente expresada como:
-\[
-D_{\mathrm{Chamfer}}(S_1, S_2) = \frac{1}{|S_1|} \sum_{x \in S_1} \min_{y \in S_2} \|x - y\|_2 \;+\; \frac{1}{|S_2|} \sum_{y \in S_2} \min_{x \in S_1} \|y - x\|_2
-\]
-donde \( S_1 \) y \( S_2 \) son los conjuntos de puntos simulados y reales, respectivamente, y \(\|\cdot\|_2\) denota la distancia euclidiana.
-
-Esta métrica es relevante porque permite evaluar de forma robusta la similitud entre las salidas simuladas del modelo y los datos reales, incluso cuando los puntos no están emparejados uno a uno. Minimizar la distancia de Chamfer durante el entrenamiento guía al modelo a generar salidas que se ajusten estrechamente a los datos.
+Minimizar la distancia de Chamfer durante el entrenamiento guía al modelo a generar salidas que se ajusten a los datos.
 
 
 \section{Validación}

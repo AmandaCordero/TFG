@@ -15,52 +15,50 @@ A level-1 auxiliary file: BackMatter/Recommendations.aux
 A level-1 auxiliary file: BackMatter/Bibliography.aux
 The style file: unsrt.bst
 Database file #1: Bibliography.bib
-Warning--entry type for "SINC2021" isn't style-file defined
---line 61 of file Bibliography.bib
 Warning--entry type for "UC3M2022" isn't style-file defined
 --line 69 of file Bibliography.bib
 Warning--entry type for "DW2023" isn't style-file defined
 --line 93 of file Bibliography.bib
 Warning--empty journal in WHO2019
-You've used 17 entries,
+You've used 21 entries,
             1791 wiz_defined-function locations,
-            558 strings with 6930 characters,
-and the built_in function-call counts, 2783 in all, are:
-= -- 202
-> -- 180
+            583 strings with 7633 characters,
+and the built_in function-call counts, 3385 in all, are:
+= -- 249
+> -- 210
 < -- 0
-+ -- 69
-- -- 52
-* -- 125
-:= -- 507
-add.period$ -- 52
-call.type$ -- 17
-change.case$ -- 17
++ -- 81
+- -- 60
+* -- 150
+:= -- 612
+add.period$ -- 63
+call.type$ -- 21
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 130
-empty$ -- 270
-format.name$ -- 52
-if$ -- 599
+cite$ -- 22
+duplicate$ -- 168
+empty$ -- 333
+format.name$ -- 60
+if$ -- 733
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 16
-newline$ -- 89
-num.names$ -- 17
-pop$ -- 76
+int.to.str$ -- 21
+missing$ -- 22
+newline$ -- 108
+num.names$ -- 21
+pop$ -- 93
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 47
+skip$ -- 57
 stack$ -- 0
 substring$ -- 0
-swap$ -- 16
+swap$ -- 21
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 17
-width$ -- 19
-write$ -- 177
-(There were 4 warnings)
+while$ -- 21
+width$ -- 23
+write$ -- 215
+(There were 3 warnings)

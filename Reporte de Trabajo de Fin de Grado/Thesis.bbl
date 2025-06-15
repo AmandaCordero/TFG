@@ -30,11 +30,6 @@ F.~Castiglione, F.~Mantile, P.~De~Berardinis, and A.~Prisco.
 \newblock How the interval between prime and boost injection affects the immune response in a computational model of the immune system.
 \newblock {\em Computational and Mathematical Methods in Medicine}, 2014.
 
-\bibitem{SINC2021}
-Agencia SINC.
-\newblock Tres modelos matemáticos ayudan a decidir quién se vacuna primero, 2021.
-\newblock Consultado el 15 de mayo de 2025.
-
 \bibitem{UC3M2022}
 Revistas UC3M.
 \newblock El papel de los modelos matemáticos en la vacunación, 2022.
@@ -55,6 +50,10 @@ S.~Snedecor.
 \newblock Op388 17-year disease reduction predicted by a transmission dynamic model after pneumococcal conjugate vaccine introduction in the united states.
 \newblock {\em International Journal of Technology Assessment in Health Care}, 2020.
 
+\bibitem{AEP2022}
+{Asociación Española de Pediatría}.
+\newblock {\em Manual de inmunizaciones en línea de la AEP}, 2022.
+
 \bibitem{AEP2023Blunting}
 {Asociación Española de Pediatría (AEP)}.
 \newblock Manual de inmunizaciones: aspectos inmunológicos de la vacunación maternal.
@@ -66,10 +65,30 @@ R.~M. Lequin.
 \newblock Enzyme immunoassay (eia)/enzyme-linked immunosorbent assay (elisa).
 \newblock {\em Clinical Chemistry}, 2005.
 
-\bibitem{Crowther2009}
-J.~R. Crowther.
-\newblock {\em The ELISA Guidebook}.
-\newblock Humana Press, New York, 2nd edition, 2009.
+\bibitem{Talbi2009}
+El-Ghazali Talbi.
+\newblock {\em Metaheuristics: From Design to Implementation}.
+\newblock John Wiley \& Sons, 2009.
+
+\bibitem{Kirkpatrick1983}
+Scott Kirkpatrick, C.~Daniel Gelatt, and Mario~P. Vecchi.
+\newblock Optimization by simulated annealing.
+\newblock {\em Science}, 1983.
+
+\bibitem{Holland1992}
+John~H. Holland.
+\newblock {\em Adaptation in natural and artificial systems: an introductory analysis with applications to biology, control, and artificial intelligence}.
+\newblock MIT press, 2nd edition, 1992.
+
+\bibitem{Dorigo1996}
+Marco Dorigo, Vittorio Maniezzo, and Alberto Colorni.
+\newblock Ant system: optimization by a colony of cooperating agents.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)}, 1996.
+
+\bibitem{tanenbaum2008modern}
+Andrew~S. Tanenbaum.
+\newblock {\em Modern Operating Systems}.
+\newblock Prentice Hall, 3rd edition edition, 2008.
 
 \bibitem{Obermoser2013}
 G.~Obermoser, S.~R. Presnell, K.~Domico, H.~Xu, Y.~Wang, E.~Anguiano, L.~Thompson-Snipes, et~al.
