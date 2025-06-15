@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.24)  15 JUN 2025 15:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.24)  15 JUN 2025 16:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1051,12 +1051,12 @@ LaTeX Font Warning: Font shape `T1/lmtt/m/In' undefined
 \c@lstlisting=\count369
 LaTeX Info: Redefining \. on input line 105.
 LaTeX Info: Redefining \% on input line 105.
-<Graphics/uhlogo.pdf, id=212, 401.5pt x 513.92pt>
+<Graphics/uhlogo.pdf, id=179, 401.5pt x 513.92pt>
 File: Graphics/uhlogo.pdf Graphic file (type pdf)
 <use Graphics/uhlogo.pdf>
 Package pdftex.def Info: Graphics/uhlogo.pdf  used on input line 108.
 (pdftex.def)             Requested size: 49.79231pt x 63.73012pt.
-<Graphics/qrcode-tesis.png, id=213, 732.7375pt x 732.7375pt>
+<Graphics/qrcode-tesis.png, id=180, 732.7375pt x 732.7375pt>
 File: Graphics/qrcode-tesis.png Graphic file (type png)
 <use Graphics/qrcode-tesis.png>
 Package pdftex.def Info: Graphics/qrcode-tesis.png  used on input line 108.
@@ -1136,12 +1136,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 
 
 
-]
-Overfull \hbox (4.05696pt too wide) in paragraph at lines 52--52
- [][] []\T1/lmr/m/n/10.95 Limitaciones y Di-rec-cio-nes Fu-tu-ras en la Mo-de-li-za-ción Compu- 
- []
-
-)
+])
 \tf@toc=\write6
 \openout6 = `Thesis.toc'.
 
@@ -1157,8 +1152,8 @@ LaTeX Info: Redefining \% on input line 114.
 
 
 ]
-LaTeX Info: Redefining \. on input line 324.
-LaTeX Info: Redefining \% on input line 324.
+LaTeX Info: Redefining \. on input line 335.
+LaTeX Info: Redefining \% on input line 335.
  [9])
 LaTeX Info: Redefining \. on input line 119.
 LaTeX Info: Redefining \% on input line 119.
@@ -1226,78 +1221,45 @@ Cap\'{\i }tulo 2.
 
 
 ]
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
-
-Overfull \hbox (162.48242pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10.95 2.1.  ENFOQUES COMPUTACIONALES PREDOMINANTES EN LA MODELACIÓN INMUNOLÓGICA \T1/lmr/m/n/10.95 22
- []
-
-[22]
-Overfull \hbox (8.16833pt too wide) in paragraph at lines 37--38
-\T1/lmr/m/n/10.95 adop-ción de en-fo-ques compu-tacio-na-les en in-mu-no-lo-gía. El pa-que-te R DSAIRM
- []
-
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+ [22]
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
 
 Overfull \hbox (30.3221pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10.95 2.2.  INTEGRACIÓN Y VALIDACIÓN DE MODELOS COMPUTACIONALES \T1/lmr/m/n/10.95 23
  []
 
 [23]
-LaTeX Info: Redefining \. on input line 70.
-LaTeX Info: Redefining \% on input line 70.
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
 
 Overfull \hbox (53.58755pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10.95 2.3.  APLICACIONES DE LOS MODELOS EN ESTRATEGIAS DE VACUNACIÓN \T1/lmr/m/n/10.95 24
  []
 
 [24]
-LaTeX Info: Redefining \. on input line 88.
-LaTeX Info: Redefining \% on input line 88.
-
-Overfull \hbox (53.58755pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10.95 2.3.  APLICACIONES DE LOS MODELOS EN ESTRATEGIAS DE VACUNACIÓN \T1/lmr/m/n/10.95 25
- []
-
-[25]
-Overfull \hbox (20.26614pt too wide) in paragraph at lines 97--98
+Overfull \hbox (20.26614pt too wide) in paragraph at lines 91--92
 []\T1/lmr/m/n/10.95 Las res-pues-tas in-mu-nes adap-ta-ti-vas fue-ron eva-lua-das al día 7 post-vacunación
  []
 
-LaTeX Info: Redefining \. on input line 106.
-LaTeX Info: Redefining \% on input line 106.
+LaTeX Info: Redefining \. on input line 92.
+LaTeX Info: Redefining \% on input line 92.
 
 Overfull \hbox (82.63712pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10.95 2.4.  RESPUESTAS INMUNOLÓGICAS ESPECÍFICAS A VACUNAS NEUMOCÓCICAS \T1/lmr/m/n/10.95 26
+\T1/lmr/m/sl/10.95 2.4.  RESPUESTAS INMUNOLÓGICAS ESPECÍFICAS A VACUNAS NEUMOCÓCICAS \T1/lmr/m/n/10.95 25
  []
 
-[26]
-LaTeX Info: Redefining \. on input line 126.
-LaTeX Info: Redefining \% on input line 126.
-
-Overfull \hbox (17.77333pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10.95 2.5.  AVANCES EN LA MODELACIÓN DE POBLACIONES ESPECÍFICAS \T1/lmr/m/n/10.95 27
- []
-
-[27]
-LaTeX Info: Redefining \. on input line 146.
-LaTeX Info: Redefining \% on input line 146.
-
-Overfull \hbox (131.37816pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10.95 2.6.  LIMITACIONES Y DIRECCIONES FUTURAS EN LA MODELIZACIÓN COMPUTACIONAL \T1/lmr/m/n/10.95 28
- []
-
-[28])
+[25])
 LaTeX Info: Redefining \. on input line 121.
 LaTeX Info: Redefining \% on input line 121.
- [29]
+ [26]
 \openout2 = `MainMatter/Metodologia.aux'.
 
  (./MainMatter/Metodologia.tex
 Cap\'{\i }tulo 3.
-[30
+[27
 
 
 
@@ -1305,90 +1267,90 @@ Cap\'{\i }tulo 3.
 ]
 LaTeX Info: Redefining \. on input line 83.
 LaTeX Info: Redefining \% on input line 83.
- [31]
+ [28]
 LaTeX Info: Redefining \. on input line 144.
 LaTeX Info: Redefining \% on input line 144.
- [32]
+ [29]
 LaTeX Info: Redefining \. on input line 181.
 LaTeX Info: Redefining \% on input line 181.
- [33]
-<Graphics/gc.png, id=547, 785.93625pt x 567.11874pt>
+ [30]
+<Graphics/gc.png, id=494, 785.93625pt x 567.11874pt>
 File: Graphics/gc.png Graphic file (type png)
 <use Graphics/gc.png>
 Package pdftex.def Info: Graphics/gc.png  used on input line 199.
 (pdftex.def)             Requested size: 360.0pt x 259.7788pt.
 LaTeX Info: Redefining \. on input line 207.
 LaTeX Info: Redefining \% on input line 207.
- [34 <./Graphics/gc.png>]
-<Graphics/is.png, id=559, 775.89874pt x 565.11125pt>
+ [31 <./Graphics/gc.png>]
+<Graphics/is.png, id=507, 775.89874pt x 565.11125pt>
 File: Graphics/is.png Graphic file (type png)
 <use Graphics/is.png>
 Package pdftex.def Info: Graphics/is.png  used on input line 215.
 (pdftex.def)             Requested size: 360.0pt x 262.2049pt.
 LaTeX Info: Redefining \. on input line 219.
 LaTeX Info: Redefining \% on input line 219.
- [35])
+ [32])
 LaTeX Info: Redefining \. on input line 122.
 LaTeX Info: Redefining \% on input line 122.
- [36 <./Graphics/is.png>]
+ [33 <./Graphics/is.png>]
 \openout2 = `MainMatter/Resultados.aux'.
 
  (./MainMatter/Resultados.tex
 Cap\'{\i }tulo 4.
-[37
+[34
 
 
 
 
 ]
-<Graphics/mdq.png, id=583, 406.8801pt x 410.4936pt>
+<Graphics/mdq.png, id=529, 406.8801pt x 410.4936pt>
 File: Graphics/mdq.png Graphic file (type png)
 <use Graphics/mdq.png>
 Package pdftex.def Info: Graphics/mdq.png  used on input line 37.
 (pdftex.def)             Requested size: 251.9989pt x 254.23407pt.
-<Graphics/mdp.png, id=584, 406.8801pt x 410.4936pt>
+<Graphics/mdp.png, id=530, 406.8801pt x 410.4936pt>
 File: Graphics/mdp.png Graphic file (type png)
 <use Graphics/mdp.png>
 Package pdftex.def Info: Graphics/mdp.png  used on input line 44.
 (pdftex.def)             Requested size: 251.9989pt x 254.23407pt.
 LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
- [38 <./Graphics/mdq.png>]
+ [35 <./Graphics/mdq.png>]
 LaTeX Info: Redefining \. on input line 80.
 LaTeX Info: Redefining \% on input line 80.
- [39 <./Graphics/mdp.png>]
-<Graphics/sp1d.png, id=602, 406.8801pt x 327.3831pt>
+ [36 <./Graphics/mdp.png>]
+<Graphics/sp1d.png, id=548, 406.8801pt x 327.3831pt>
 File: Graphics/sp1d.png Graphic file (type png)
 <use Graphics/sp1d.png>
 Package pdftex.def Info: Graphics/sp1d.png  used on input line 92.
 (pdftex.def)             Requested size: 161.9989pt x 130.34647pt.
-<Graphics/sp1.png, id=603, 406.8801pt x 327.3831pt>
+<Graphics/sp1.png, id=549, 406.8801pt x 327.3831pt>
 File: Graphics/sp1.png Graphic file (type png)
 <use Graphics/sp1.png>
 Package pdftex.def Info: Graphics/sp1.png  used on input line 99.
 (pdftex.def)             Requested size: 161.9989pt x 130.34647pt.
-<Graphics/sp14d.png, id=604, 412.6617pt x 327.3831pt>
+<Graphics/sp14d.png, id=550, 412.6617pt x 327.3831pt>
 File: Graphics/sp14d.png Graphic file (type png)
 <use Graphics/sp14d.png>
 Package pdftex.def Info: Graphics/sp14d.png  used on input line 109.
 (pdftex.def)             Requested size: 161.9989pt x 128.51813pt.
-<Graphics/sp14.png, id=605, 406.8801pt x 327.3831pt>
+<Graphics/sp14.png, id=551, 406.8801pt x 327.3831pt>
 File: Graphics/sp14.png Graphic file (type png)
 <use Graphics/sp14.png>
 Package pdftex.def Info: Graphics/sp14.png  used on input line 116.
 (pdftex.def)             Requested size: 161.9989pt x 130.34647pt.
 LaTeX Info: Redefining \. on input line 121.
 LaTeX Info: Redefining \% on input line 121.
- [40 <./Graphics/sp1d.png> <./Graphics/sp1.png>]
+ [37 <./Graphics/sp1d.png> <./Graphics/sp1.png>]
 LaTeX Info: Redefining \. on input line 138.
 LaTeX Info: Redefining \% on input line 138.
- [41 <./Graphics/sp14d.png> <./Graphics/sp14.png>]
-<Graphics/sp1t.png, id=623, 406.8801pt x 327.3831pt>
+ [38 <./Graphics/sp14d.png> <./Graphics/sp14.png>]
+<Graphics/sp1t.png, id=571, 406.8801pt x 327.3831pt>
 File: Graphics/sp1t.png Graphic file (type png)
 <use Graphics/sp1t.png>
 Package pdftex.def Info: Graphics/sp1t.png  used on input line 182.
 (pdftex.def)             Requested size: 161.9989pt x 130.34647pt.
-<Graphics/sp14t.png, id=624, 406.8801pt x 327.3831pt>
+<Graphics/sp14t.png, id=572, 406.8801pt x 327.3831pt>
 File: Graphics/sp14t.png Graphic file (type png)
 <use Graphics/sp14t.png>
 Package pdftex.def Info: Graphics/sp14t.png  used on input line 189.
@@ -1397,27 +1359,27 @@ Package pdftex.def Info: Graphics/sp14t.png  used on input line 189.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Graphics/sp18ct.png, id=625, 406.8801pt x 327.3831pt>
+<Graphics/sp18ct.png, id=573, 406.8801pt x 327.3831pt>
 File: Graphics/sp18ct.png Graphic file (type png)
 <use Graphics/sp18ct.png>
 Package pdftex.def Info: Graphics/sp18ct.png  used on input line 198.
 (pdftex.def)             Requested size: 161.9989pt x 130.34647pt.
-<Graphics/sp19ft.png, id=626, 406.8801pt x 327.3831pt>
+<Graphics/sp19ft.png, id=574, 406.8801pt x 327.3831pt>
 File: Graphics/sp19ft.png Graphic file (type png)
 <use Graphics/sp19ft.png>
 Package pdftex.def Info: Graphics/sp19ft.png  used on input line 204.
 (pdftex.def)             Requested size: 161.9989pt x 130.34647pt.
-<Graphics/sp23ft.png, id=627, 406.8801pt x 327.3831pt>
+<Graphics/sp23ft.png, id=575, 406.8801pt x 327.3831pt>
 File: Graphics/sp23ft.png Graphic file (type png)
 <use Graphics/sp23ft.png>
 Package pdftex.def Info: Graphics/sp23ft.png  used on input line 212.
 (pdftex.def)             Requested size: 161.9989pt x 130.34647pt.
-<Graphics/sp5t.png, id=628, 400.3758pt x 327.3831pt>
+<Graphics/sp5t.png, id=576, 400.3758pt x 327.3831pt>
 File: Graphics/sp5t.png Graphic file (type png)
 <use Graphics/sp5t.png>
 Package pdftex.def Info: Graphics/sp5t.png  used on input line 218.
 (pdftex.def)             Requested size: 161.9989pt x 132.46953pt.
-<Graphics/sp6bt.png, id=629, 412.6617pt x 327.3831pt>
+<Graphics/sp6bt.png, id=577, 412.6617pt x 327.3831pt>
 File: Graphics/sp6bt.png Graphic file (type png)
 <use Graphics/sp6bt.png>
 Package pdftex.def Info: Graphics/sp6bt.png  used on input line 226.
@@ -1425,16 +1387,16 @@ Package pdftex.def Info: Graphics/sp6bt.png  used on input line 226.
 )
 LaTeX Info: Redefining \. on input line 124.
 LaTeX Info: Redefining \% on input line 124.
- [42]
+ [39]
 LaTeX Info: Redefining \. on input line 124.
 LaTeX Info: Redefining \% on input line 124.
- [43 <./Graphics/sp1t.png> <./Graphics/sp14t.png> <./Graphics/sp18ct.png> <./Graphics/sp19ft.png> <./Graphics/sp23ft.png> <./Graphics/sp5t.png>]
+ [40 <./Graphics/sp1t.png> <./Graphics/sp14t.png> <./Graphics/sp18ct.png> <./Graphics/sp19ft.png> <./Graphics/sp23ft.png> <./Graphics/sp5t.png>]
 LaTeX Info: Redefining \. on input line 124.
 LaTeX Info: Redefining \% on input line 124.
- [44 <./Graphics/sp6bt.png>]
+ [41 <./Graphics/sp6bt.png>]
 \openout2 = `BackMatter/Conclusions.aux'.
 
- (./BackMatter/Conclusions.tex) [45
+ (./BackMatter/Conclusions.tex) [42
 
 
 
@@ -1442,7 +1404,7 @@ LaTeX Info: Redefining \% on input line 124.
 ]
 \openout2 = `BackMatter/Recommendations.aux'.
 
- (./BackMatter/Recommendations.tex) [46
+ (./BackMatter/Recommendations.tex) [43
 
 
 
@@ -1454,37 +1416,37 @@ LaTeX Info: Redefining \% on input line 124.
 \tf@brf=\write7
 \openout7 = `Thesis.brf'.
 
- [47
+ [44
 
 
 
 
 ]
-Underfull \hbox (badness 6893) in paragraph at lines 62--62
+Underfull \hbox (badness 6893) in paragraph at lines 57--57
 []\T1/lmr/m/n/10.95 Asociación Es-pa-ño-la de Pe-dia-tría (AEP).  Ma-nual de in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 \T1/lmr/m/n/10.95 mu-ni-za-cio-nes: as-pec-tos in-mu-no-ló-gi-cos de la va-cu-na-ción ma-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 \T1/lmr/m/n/10.95 ter-nal.  [][]$\T1/lmtt/c/it/10.95 https : / / vacunasaep . org / profesionales / noticias /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 \T1/lmtt/c/it/10.95 manual-[]de-[]inmunizaciones-[]inmunologia-[]vacunacion-[]maternal$[][]\T1/lmr/m/n/10.95 ,
  []
 
 LaTeX Info: Redefining \. on input line 107.
 LaTeX Info: Redefining \% on input line 107.
-[48]))
+[45]))
 LaTeX Info: Redefining \. on input line 131.
 LaTeX Info: Redefining \% on input line 131.
- [49] (./Thesis.aux
+ [46] (./Thesis.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 LaTeX Info: Redefining \. on input line 13.
@@ -1499,23 +1461,23 @@ L3 programming layer <2024-01-22>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9A0260D7FBA73064656B1FA28F87BA00;11413.
+(rerunfilecheck)             Checksum: 8BD6877F7E56AFE997375ACC3EEBF85B;8771.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 14F579CF60FF369EFCA922E2BC157664;1756.
+(rerunfilecheck)             Checksum: 19495301CC04AA35E0B8EFF33FA4D2AD;1589.
  ) 
 Here is how much of TeX's memory you used:
- 29873 strings out of 474222
- 547582 string characters out of 5748732
- 1935975 words of memory out of 5000000
- 51273 multiletter control sequences out of 15000+600000
+ 29846 strings out of 474222
+ 547118 string characters out of 5748732
+ 1936975 words of memory out of 5000000
+ 51256 multiletter control sequences out of 15000+600000
  663941 words of font info for 118 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  105i,12n,107p,1365b,801s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (49 pages, 789163 bytes).
+Output written on Thesis.pdf (46 pages, 780646 bytes).
 PDF statistics:
- 855 PDF objects out of 1000 (max. 8388607)
- 721 compressed objects within 8 object streams
- 202 named destinations out of 1000 (max. 500000)
- 506 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 796 PDF objects out of 1000 (max. 8388607)
+ 666 compressed objects within 7 object streams
+ 192 named destinations out of 1000 (max. 500000)
+ 442 words of extra memory for PDF output out of 10000 (max. 10000000)
 

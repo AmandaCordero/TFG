@@ -25,11 +25,6 @@ C.~A. Janeway, P.~Travers, M.~Walport, and M.~J. Shlomchik.
 \newblock {\em Immunobiology: The Immune System in Health and Disease}.
 \newblock Garland Science, 5th edition, 2002.
 
-\bibitem{Castiglione2014}
-F.~Castiglione, F.~Mantile, P.~De~Berardinis, and A.~Prisco.
-\newblock How the interval between prime and boost injection affects the immune response in a computational model of the immune system.
-\newblock {\em Computational and Mathematical Methods in Medicine}, 2014.
-
 \bibitem{UC3M2022}
 Revistas UC3M.
 \newblock El papel de los modelos matemáticos en la vacunación, 2022.
@@ -95,6 +90,11 @@ Andrew~S. Tanenbaum.
 \newblock {\em Modern Operating Systems}.
 \newblock Prentice Hall, 3rd edition edition, 2008.
 
+\bibitem{Choi2021}
+Yoonjoo Choi, Ulrike Damm, Desmond Curran, Robert~J. Pitman, Maarten~J. Postma, Philippe Beutels, and Mark Jit.
+\newblock Dynamic transmission models of pneumococcal conjugate vaccination: A review of key assumptions and vaccine effects.
+\newblock {\em Vaccine}, 39, 2021.
+
 \bibitem{Obermoser2013}
 G.~Obermoser, S.~R. Presnell, K.~Domico, H.~Xu, Y.~Wang, E.~Anguiano, L.~Thompson-Snipes, et~al.
 \newblock Systems scale interactive exploration reveals quantitative and qualitative differences in response to influenza and pneumococcal vaccines.
@@ -104,11 +104,6 @@ G.~Obermoser, S.~R. Presnell, K.~Domico, H.~Xu, Y.~Wang, E.~Anguiano, L.~Thompso
 Rajagopal Murugan, Lisa Buchauer, Gianna Triller, Cornelia Kreschel, Giulia Costa, Gemma Pidelaserra~Marti, Katharina Imkeller, Christian~E. Busse, Sumana Chakravarty, B.~Kim~Lee Sim, Stephen~L. Hoffman, Elena~A. Levashina, Peter~G. Kremsner, Benjamin Mordmüller, Thomas Höfer, and Hedda Wardemann.
 \newblock Clonal selection drives protective memory b cell responses in controlled human malaria infection.
 \newblock {\em Science Immunology}, 2018.
-
-\bibitem{Handel2020}
-Andreas Handel.
-\newblock A software package for immunologists to learn simulation modeling.
-\newblock {\em BMC Immunology}, 2020.
 
 \bibitem{murphy2017janeway}
 Kenneth Murphy and Casey Weaver.

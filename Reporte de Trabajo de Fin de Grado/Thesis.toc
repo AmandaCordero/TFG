@@ -29,45 +29,37 @@
 \contentsline {subsubsection}{Hilos}{20}{section*.20}%
 \contentsline {subsubsection}{Retos en Programación Concurrente}{20}{section*.21}%
 \contentsline {chapter}{\numberline {2}Estado del Arte}{21}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Enfoques Computacionales Predominantes en la Modelación Inmunológica}{21}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Enfoques Computacionales}{21}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Modelos de Transmisión Dinámica}{21}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Enfoques de Inmunología de Sistemas}{22}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Modelado de Respuestas Celulares a Nivel Molecular}{22}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Herramientas Educativas para Modelación Inmunológica}{23}{subsection.2.1.4}%
 \contentsline {section}{\numberline {2.2}Integración y Validación de Modelos Computacionales}{23}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Validación con Datos Epidemiológicos}{23}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Correlación Inmunológica y Validación Clínica}{24}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Correlación Inmunológica y Validación Clínica}{23}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Validación de Modelos Moleculares}{24}{subsection.2.2.3}%
 \contentsline {section}{\numberline {2.3}Aplicaciones de los Modelos en Estrategias de Vacunación}{24}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Predicción del Impacto Poblacional}{24}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Optimización de Programas Vacunales}{25}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Optimización de Programas Vacunales}{24}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Diseño de Inmunógenos}{25}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Respuestas Inmunológicas Específicas a Vacunas Neumocócicas}{26}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Modelación de Respuestas Inmunes Innatas}{26}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.4}Respuestas Inmunológicas Específicas a Vacunas Neumocócicas}{25}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Modelación de Respuestas Inmunes Innatas}{25}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Caracterización de Respuestas Inmunes Adaptativas}{26}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Dinámica de Expansión Clonal}{26}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Avances en la Modelación de Poblaciones Específicas}{27}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Modelación en Población Neonatal e Infantil}{27}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Comparaciones entre Grupos Etarios}{27}{subsection.2.5.2}%
-\contentsline {section}{\numberline {2.6}Limitaciones y Direcciones Futuras en la Modelización Computacional}{28}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Integración de Múltiples Escalas Modelísticas}{28}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Incorporación de Modelos Educativos}{28}{subsection.2.6.2}%
-\contentsline {section}{\numberline {2.7}Conclusión}{28}{section.2.7}%
-\contentsline {chapter}{\numberline {3}Metodología}{30}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Modelado de componentes biológicos}{30}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Centros Germinales}{31}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Sistema Inmune}{35}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Experimentación y Resultados}{37}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Datos para la Validación del Modelo}{37}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Limpieza de Datos}{37}{subsection.4.1.1}%
-\contentsline {subsubsection}{Análisis de Datos Faltantes}{38}{section*.29}%
-\contentsline {subsubsection}{Valores inconsistentes}{40}{section*.32}%
-\contentsline {section}{\numberline {4.2}Entrenamiento}{41}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Exploración del espacio de parámetros}{41}{subsection.4.2.1}%
-\contentsline {subsubsection}{Soluciones vecinas:}{41}{section*.35}%
-\contentsline {subsubsection}{Criteros de parada:}{42}{section*.36}%
-\contentsline {subsection}{\numberline {4.2.2}Función Objetivo}{42}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Validación}{42}{section.4.3}%
-\contentsline {chapter}{Conclusiones}{45}{chapter*.41}%
-\contentsline {chapter}{Recomendaciones}{46}{chapter*.42}%
-\contentsline {chapter}{Referencias}{47}{chapter*.43}%
+\contentsline {section}{\numberline {2.5}Conclusión}{26}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Metodología}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modelado de componentes biológicos}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Centros Germinales}{28}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Sistema Inmune}{32}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Experimentación y Resultados}{34}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Datos para la Validación del Modelo}{34}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Limpieza de Datos}{34}{subsection.4.1.1}%
+\contentsline {subsubsection}{Análisis de Datos Faltantes}{35}{section*.29}%
+\contentsline {subsubsection}{Valores inconsistentes}{37}{section*.32}%
+\contentsline {section}{\numberline {4.2}Entrenamiento}{38}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Exploración del espacio de parámetros}{38}{subsection.4.2.1}%
+\contentsline {subsubsection}{Soluciones vecinas:}{38}{section*.35}%
+\contentsline {subsubsection}{Criteros de parada:}{39}{section*.36}%
+\contentsline {subsection}{\numberline {4.2.2}Función Objetivo}{39}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Validación}{39}{section.4.3}%
+\contentsline {chapter}{Conclusiones}{42}{chapter*.41}%
+\contentsline {chapter}{Recomendaciones}{43}{chapter*.42}%
+\contentsline {chapter}{Referencias}{44}{chapter*.43}%

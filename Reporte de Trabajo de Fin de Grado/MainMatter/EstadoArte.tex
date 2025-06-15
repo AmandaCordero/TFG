@@ -6,37 +6,32 @@
 
 La modelación computacional ha emergido como una herramienta fundamental para comprender y predecir las complejas interacciones entre las PCV y el sistema inmunológico humano. Los documentos analizados en esta sección revelan metodologías complementarias que abordan este fenómeno desde perspectivas poblacionales e individuales, proporcionando un marco integral para el desarrollo de modelos predictivos eficaces.
 
-\section{Enfoques Computacionales Predominantes en la Modelación Inmunológica}
+\section{Enfoques Computacionales}
 
-La literatura científica actual identifica dos metodologías computacionales principales para modelar la respuesta inmune a las vacunas neumocócicas conjugadas, cada una con fortalezas y aplicaciones distintivas que contribuyen a nuestra comprensión global de este complejo fenómeno biológico.
+En la literatura científica actual se identifican dos metodologías computacionales para modelar la respuesta inmune a las vacunas neumocócicas conjugadas, cada una con fortalezas y aplicaciones distintivas que contribuyen a la comprensión global de este complejo fenómeno biológico.
 
 \subsection{Modelos de Transmisión Dinámica}
 
-Los modelos de transmisión dinámica basados en ecuaciones diferenciales constituyen uno de los enfoques fundamentales para analizar el impacto de las vacunas neumocócicas a nivel poblacional. Estos modelos matemáticos utilizan sistemas de ecuaciones diferenciales para simular la propagación de la enfermedad neumocócica invasiva (IPD por sus siglas en inglés) a través de poblaciones estratificadas. Los estudios de Snedecor \cite{Snedecor2020a} demuestran que estos modelos incorporan múltiples componentes críticos para garantizar su precisión predictiva.
+Los modelos de transmisión dinámica basados en ecuaciones diferenciales constituyen uno de los enfoques fundamentales para analizar el impacto de las vacunas neumocócicas a nivel poblacional \cite{Choi2021}. Estos modelos matemáticos utilizan sistemas de ecuaciones diferenciales para simular la propagación de la enfermedad neumocócica invasiva (IPD por sus siglas en inglés) a través de poblaciones estratificadas\footnote{Clasificadas en grupos o capas diferenciadas.}. Los estudios de Snedecor \cite{Snedecor2020a} demuestran que estos modelos incorporan múltiples componentes críticos para garantizar su precisión predictiva.
 
-La estratificación por edad es un elemento esencial de estos modelos, dividiendo la población en categorías específicas ($<$2, 2-4, 5-17, 18-49, 50-64, $\geq$65 años) que reflejan las diferencias en susceptibilidad y transmisión entre diversos grupos etarios. Esta segmentación permite capturar tanto los efectos directos como indirectos de la vacunación en diferentes cohortes poblacionales.
+La estratificación por edad es un elemento esencial de estos modelos, dividiendo la población en categorías específicas que reflejan las diferencias en susceptibilidad y transmisión entre diversos grupos etarios. Esta segmentación permite capturar tanto los efectos directos como indirectos de la vacunación en diferentes cohortes poblacionales.
 
-Adicionalmente, estos modelos categorizan los serotipos neumocócicos según su inclusión en diversas formulaciones vacunales, facilitando la evaluación del impacto diferencial de las vacunas en la circulación de serotipos específicos. La incorporación de parámetros de adquisición de portadores y desarrollo de enfermedad invasiva enriquece aún más la capacidad predictiva de estos modelos.
+Adicionalmente, estos modelos categorizan los serotipos neumocócicos según su inclusión en diversas formulaciones vacunales, facilitando la evaluación del impacto diferencial de las vacunas en la circulación de serotipos específicos. 
 
 \subsection{Enfoques de Inmunología de Sistemas}
 
-En contraste con los modelos poblacionales, los enfoques de inmunología de sistemas se centran en las respuestas inmunológicas individuales a la vacunación neumocócica. El estudio de Obermoser et al. \cite{Obermoser2013} ejemplifica esta metodología, aplicando soluciones de software para vincular firmas inmunes tempranas con respuestas vacunales posteriores.
+En contraste con los modelos poblacionales, los enfoques de inmunología de sistemas se centran en las respuestas inmunológicas individuales a la vacunación neumocócica\cite{Obermoser2013}. 
 
 Estos enfoques analizan cambios transcripcionales post-vacunación, estableciendo correlaciones entre estas medidas y los títulos de anticuerpos desarrollados al día 28. La medición de respuestas de plasmablastos al día 7 proporciona información adicional sobre la dinámica de la respuesta inmune adaptativa, creando un marco temporal para la predicción de eficacia vacunal a nivel individual.
 
-Las soluciones computacionales empleadas en inmunología de sistemas permiten el procesamiento de conjuntos de datos inmunológicos complejos, facilitando la identificación de biomarcadores predictivos de respuesta vacunal. Esta capacidad tiene implicaciones significativas para la personalización de estrategias de vacunación según perfiles inmunológicos individuales.
+Las soluciones computacionales empleadas en inmunología de sistemas permiten el procesamiento de conjuntos de datos inmunológicos complejos, facilitando la identificación de biomarcadores predictivos\footnote{Característica biológica medible que puede utilizarse para identificar prospectivamente a los pacientes que tienen mayor probabilidad de beneficiarse de una intervención específica, o por el contrario, presentar efectos adversos.} de respuesta vacunal. Esta capacidad tiene implicaciones significativas para la personalización de estrategias de vacunación según perfiles inmunológicos individuales.
 
 \subsection{Modelado de Respuestas Celulares a Nivel Molecular}
 
-Avances recientes en el modelado de respuestas inmunes celulares han permitido comprender los mecanismos moleculares subyacentes a la generación de memoria inmunológica. El estudio de Murugan et al. \cite{Murugan2018} demuestra mediante secuenciación de genes de inmunoglobulina a nivel de célula única y producción de anticuerpos monoclonales recombinantes cómo la selección clonal de precursores de células B naive y de memoria impulsa respuestas protectoras en infecciones controladas de malaria.
+Avances recientes en el modelado de respuestas inmunes celulares han permitido comprender los mecanismos moleculares subyacentes a la generación de memoria inmunológica. El estudio de Murugan et al. \cite{Murugan2018} demuestra mediante secuenciación de genes de inmunoglobulina a nivel de célula única, y producción de anticuerpos monoclonales recombinantes ,cómo la selección clonal de precursores de células B naive y de memoria, impulsa respuestas protectoras en infecciones controladas de malaria.
 
 Este enfoque revela que para antígenos complejos como la proteína circumsporozoite de \textit{Plasmodium falciparum} (PfCSP), la selección clonal supera a la maduración por afinidad como mecanismo dominante para generar respuestas de memoria efectivas. El desarrollo de modelos matemáticos que explican cómo la eficiencia de la maduración por afinidad disminuye con la complejidad del antígeno proporciona un marco teórico para entender la dinámica de las respuestas B a vacunas conjugadas.
 
-\subsection{Herramientas Educativas para Modelación Inmunológica}
-
-El desarrollo de herramientas pedagógicas accesibles ha facilitado la adopción de enfoques computacionales en inmunología. El paquete R DSAIRM \cite{Handel2020} proporciona una plataforma educativa que permite a inmunólogos aprender conceptos de modelado dinámico sin necesidad de experiencia previa en programación.
-
-Esta herramienta implementa modelos deterministas y estocásticos de dinámica de infecciones y respuestas inmunes a través de una interfaz gráfica interactiva. Su estructura modular permite una transición gradual desde el uso básico mediante interfaz gráfica hasta la modificación directa del código subyacente, facilitando el desarrollo de habilidades computacionales aplicadas a la inmunología de sistemas.
 
 \section{Integración y Validación de Modelos Computacionales}
 
@@ -62,13 +57,13 @@ Esta validación multinivel (desde dinámica celular hasta afinidad molecular) p
 
 \section{Aplicaciones de los Modelos en Estrategias de Vacunación}
 
-Los modelos computacionales validados ofrecen valiosas aplicaciones para la planificación e implementación de estrategias de vacunación neumocócica a diferentes niveles.
+Los modelos computacionales validados ofrecen aplicaciones para la planificación e implementación de estrategias de vacunación neumocócica a diferentes niveles.
 
 \subsection{Predicción del Impacto Poblacional}
 
-Los modelos de transmisión dinámica han demostrado capacidad para prever el impacto de programas de vacunación a largo plazo, incluyendo efectos directos en poblaciones vacunadas y efectos indirectos mediante inmunidad de grupo. La capacidad de estos modelos para predecir con precisión los cambios en la incidencia de IPD durante 17 años subraya su utilidad para la planificación sanitaria estratégica.
+Los modelos de transmisión dinámica han demostrado capacidad para prever el impacto de programas de vacunación a largo plazo, incluyendo efectos directos en poblaciones vacunadas y efectos indirectos mediante inmunidad de grupo. La capacidad de estos modelos para predecir con precisión los cambios en la incidencia de IPD durante subraya su utilidad para la planificación sanitaria estratégica.
 
-El segundo documento analizado sugiere que los modelos computacionales estructurados por edad integran datos de vigilancia y estimaciones epidemiológicas para predecir específicamente las respuestas a la vacuna PCV en recién nacidos, demostrando reducciones en la transmisión de enfermedad y susceptibilidad. Esta aplicación específica ilustra la versatilidad de estos modelos para evaluar intervenciones en poblaciones vulnerables.
+El segundo documento analizado sugiere que los modelos estructurados por edad integran datos de vigilancia y estimaciones epidemiológicas para predecir específicamente las respuestas a la vacuna PCV en recién nacidos, demostrando reducciones en la transmisión de enfermedad y susceptibilidad. Esta aplicación específica ilustra la versatilidad de estos modelos para evaluar intervenciones en poblaciones vulnerables.
 
 \subsection{Optimización de Programas Vacunales}
 
@@ -80,11 +75,10 @@ Esta capacidad permite a los responsables de políticas sanitarias evaluar múlt
 
 Los modelos de selección clonal a nivel molecular tienen aplicaciones directas en el diseño racional de vacunas. Murugan et al. \cite{Murugan2018} sugieren que para antígenos complejos, el diseño de inmunógenos que apunten específicamente a células B que expresan anticuerpos germinales de alta afinidad puede optimizar la respuesta inmune.
 
-Esta aproximación podría aplicarse al desarrollo de vacunas neumocócicas conjugadas de próxima generación, donde la ingeniería de epítopos que favorezcan la selección de clones B con características genéticas específicas (como el uso de genes VH3-33 asociados con cadenas ligeras específicas) podría potenciar la respuesta protectora.
 
 \section{Respuestas Inmunológicas Específicas a Vacunas Neumocócicas}
 
-Los documentos analizados ofrecen información valiosa sobre la modelación de respuestas inmunológicas específicas desencadenadas por vacunas neumocócicas, tanto a nivel innato como adaptativo.
+Los documentos analizados ofrecen información sobre la modelación de respuestas inmunológicas específicas desencadenadas por vacunas neumocócicas, tanto a nivel innato como adaptativo.
 
 \subsection{Modelación de Respuestas Inmunes Innatas}
 
@@ -98,50 +92,11 @@ Las respuestas inmunes adaptativas fueron evaluadas al día 7 post-vacunación m
 
 La modelación de estas respuestas adaptativas complementa los modelos poblacionales al proporcionar mecanismos inmunológicos subyacentes que explican las tasas de protección observadas a nivel epidemiológico.
 
-\subsection{Dinámica de Expansión Clonal}
-
-Estudios recientes han caracterizado la dinámica de expansión clonal de células B durante respuestas vacunales. Murugan et al. \cite{Murugan2018} demostraron que tras exposiciones repetidas a antígenos, la selección clonal de precursores de células B naive y de memoria con características genéticas específicas (particularmente el uso de genes VH3-33 con CDR3 de 8 aminoácidos) genera respuestas de alta afinidad.
-
-Esta comprensión de la dinámica clonal tiene implicaciones para el diseño de esquemas de vacunación neumocócica, sugiriendo que dosis de refuerzo adecuadamente espaciadas podrían optimizar la selección y expansión de clones protectores.
-
-\section{Avances en la Modelación de Poblaciones Específicas}
-
-Los documentos analizados revelan avances significativos en la modelación computacional dirigida a poblaciones específicas, particularmente recién nacidos y niños pequeños, que representan grupos prioritarios para la vacunación neumocócica.
-
-\subsection{Modelación en Población Neonatal e Infantil}
-
-El segundo documento indica que modelos computacionales estructurados por edad integran datos de vigilancia y estimaciones epidemiológicas para predecir respuestas a PCV en recién nacidos. Estos modelos demuestran reducciones en transmisión y susceptibilidad a enfermedad, proporcionando evidencia computacional para apoyar políticas de vacunación temprana.
-
-Esta modelación específica para recién nacidos es particularmente valiosa considerando las características únicas del sistema inmune neonatal y las complejas interacciones con anticuerpos maternos, factores que pueden influir significativamente en la respuesta vacunal.
-
-\subsection{Comparaciones entre Grupos Etarios}
-
-Los modelos de transmisión dinámica analizados incorporan múltiples grupos etarios, permitiendo evaluaciones comparativas de la efectividad vacunal entre diferentes cohortes poblacionales. Esta estratificación facilita la identificación de grupos con respuestas subóptimas que podrían beneficiarse de estrategias vacunales adaptadas.
-
-La capacidad de estos modelos para predecir con precisión casos de IPD en grupos etarios específicos (niños menores de 2 años y adultos de 65 años o más) demuestra su utilidad para informar políticas vacunales diferenciadas según edad.
-
-\section{Limitaciones y Direcciones Futuras en la Modelización Computacional}
-
-A pesar de los avances significativos, el análisis de los documentos revela brechas importantes y oportunidades para el desarrollo futuro de modelos computacionales de respuesta inmune a vacunas neumocócicas.
-
-\subsection{Integración de Múltiples Escalas Modelísticas}
-
-Una limitación actual es la separación relativa entre modelos poblacionales (transmisión dinámica) y modelos individuales (inmunología de sistemas). El desarrollo de marcos integrados que vinculen mecánicamente estos niveles representaría un avance significativo, permitiendo predicciones más precisas que incorporen tanto mecanismos inmunológicos detallados como dinámicas poblacionales.
-
-Esta integración multiescala podría facilitar la identificación de mecanismos inmunológicos subyacentes responsables de tendencias epidemiológicas observadas y mejorar la capacidad para predecir impactos de nuevas formulaciones vacunales.
 
 
-
-\subsection{Incorporación de Modelos Educativos}
-
-El desarrollo de herramientas pedagógicas como DSAIRM \cite{Handel2020} representa una dirección prometedora para democratizar el acceso a técnicas de modelado inmunológico. Futuras mejoras podrían incluir módulos específicos para modelar respuestas a vacunas conjugadas, permitiendo a investigadores clínicos explorar escenarios de vacunación sin requerir experiencia en programación.
-
-La integración de estos recursos educativos con plataformas de investigación podría facilitar la transición desde modelos conceptuales educativos hacia modelos predictivos aplicados en entornos clínicos.
 
 \section{Conclusión}
 
-El estado actual de la modelación computacional de respuestas inmunes a vacunas neumocócicas conjugadas revela un campo en evolución con enfoques complementarios que abordan diferentes escalas biológicas del fenómeno vacunal. Los modelos de transmisión dinámica proporcionan predicciones robustas a nivel poblacional, mientras que los enfoques de inmunología de sistemas ofrecen \textit{insights} mecanísticos sobre respuestas individuales.
+El estado actual de la modelación computacional de respuestas inmunes a vacunas neumocócicas conjugadas revela un campo en evolución con enfoques complementarios que abordan diferentes escalas biológicas del fenómeno vacunal. Los modelos de transmisión dinámica proporcionan predicciones robustas a nivel poblacional, mientras que los enfoques de inmunología de sistemas ofrecen una perspectiva mecanística sobre respuestas individuales.
 
-La validación rigurosa de estos modelos contra datos epidemiológicos observados durante períodos extensos demuestra su fiabilidad para informar políticas de salud pública. Sin embargo, persisten oportunidades significativas para integrar múltiples escalas modelísticas y expandir su aplicabilidad a poblaciones diversas.
-
-El desarrollo futuro de este campo probablemente se dirigirá hacia marcos integrados que incorporen tanto mecanismos inmunológicos detallados (como dinámicas de selección clonal) como dinámicas poblacionales, mejorando nuestra capacidad para optimizar estrategias de vacunación neumocócica y, en última instancia, reducir la carga global de enfermedad neumocócica invasiva.
+La validación rigurosa de estos modelos contra datos epidemiológicos observados durante períodos extensos demuestra su fiabilidad para informar políticas de salud pública. 
