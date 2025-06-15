@@ -45,6 +45,11 @@ Deutsche Welle.
 \newblock Inteligencia artificial produce vacunas superpotentes, 2023.
 \newblock Consultado el 15 de mayo de 2025.
 
+\bibitem{PREADOJ2001}
+VALERIA PREADO~J.
+\newblock {Conceptos microbiológicos de Streptococcus pneumoniae: BASIC MICROBIOLOGICAL ASPECTS}.
+\newblock {\em {Revista chilena de infectolog\~A\-a}}, 2001.
+
 \bibitem{Snedecor2020a}
 S.~Snedecor.
 \newblock Op388 17-year disease reduction predicted by a transmission dynamic model after pneumococcal conjugate vaccine introduction in the united states.
@@ -53,16 +58,6 @@ S.~Snedecor.
 \bibitem{Snedecor2020b}
 S.~Snedecor.
 \newblock Pin59 17-year disease reduction predicted by a transmission dynamic model after pneumococcal conjugate vaccine introduction in the united states, 2020.
-
-\bibitem{Obermoser2013}
-G.~Obermoser, S.~R. Presnell, K.~Domico, H.~Xu, Y.~Wang, E.~Anguiano, L.~Thompson-Snipes, et~al.
-\newblock Systems scale interactive exploration reveals quantitative and qualitative differences in response to influenza and pneumococcal vaccines.
-\newblock {\em Immunity}, 2013.
-
-\bibitem{PREADOJ2001}
-VALERIA PREADO~J.
-\newblock {Conceptos microbiológicos de Streptococcus pneumoniae: BASIC MICROBIOLOGICAL ASPECTS}.
-\newblock {\em {Revista chilena de infectolog\~A\-a}}, 2001.
 
 \bibitem{AEP2023Blunting}
 {Asociación Española de Pediatría (AEP)}.
@@ -79,5 +74,20 @@ R.~M. Lequin.
 J.~R. Crowther.
 \newblock {\em The ELISA Guidebook}.
 \newblock Humana Press, New York, 2nd edition, 2009.
+
+\bibitem{Obermoser2013}
+G.~Obermoser, S.~R. Presnell, K.~Domico, H.~Xu, Y.~Wang, E.~Anguiano, L.~Thompson-Snipes, et~al.
+\newblock Systems scale interactive exploration reveals quantitative and qualitative differences in response to influenza and pneumococcal vaccines.
+\newblock {\em Immunity}, 2013.
+
+\bibitem{Murugan2018}
+Rajagopal Murugan, Lisa Buchauer, Gianna Triller, Cornelia Kreschel, Giulia Costa, Gemma Pidelaserra~Marti, Katharina Imkeller, Christian~E. Busse, Sumana Chakravarty, B.~Kim~Lee Sim, Stephen~L. Hoffman, Elena~A. Levashina, Peter~G. Kremsner, Benjamin Mordmüller, Thomas Höfer, and Hedda Wardemann.
+\newblock Clonal selection drives protective memory b cell responses in controlled human malaria infection.
+\newblock {\em Science Immunology}, 2018.
+
+\bibitem{Handel2020}
+Andreas Handel.
+\newblock A software package for immunologists to learn simulation modeling.
+\newblock {\em BMC Immunology}, 2020.
 
 \end{thebibliography}

@@ -19,45 +19,70 @@ Se cuenta con datos de 240 sujetos divididos en dos grupos:
 Para la validación del modelo nos centraremos en el grupo de sujetos vacunados con VCN7-T
 
 \subsection{Limpieza de Datos}
-Antes de trabajar con los datos fue requerido un proceso de limpieza de los mismos. 
+Antes de trabajar con los datos fue realizado un proceso de limpieza de los mismos. 
 
 
-\subsubsection{Datos Faltantes}
-Las gráficas siguientes muestran la cantidad de valores, por columna del \textit{dataset} que son nulas o vacías. 
-\begin{figure}[h]
+\subsubsection{Análisis de Datos Faltantes}
+
+Las Figuras \ref{fig:mdq} y \ref{fig:mdp} presentan el análisis de valores faltantes (nulos o vacíos) en las columnas de los conjuntos de datos para las vacunas VCN7-T (Figura \ref{fig:mdq}) y Prevnar13 (Figura \ref{fig:mdp}). 
+
+\textbf{Descripción de las gráficas:}
+\begin{itemize}
+    \item \textbf{Eje Y:} Nombre de las columnas/variables del estudio
+    \item \textbf{Eje X:} Cantidad de valores faltantes (expresada en conteo absoluto)
+\end{itemize}
+
+\begin{figure}[H]
     \centering
-    % Primera fila
-    \begin{minipage}{0.45\textwidth}
-        \centering
-        \includegraphics[width=1.0\textwidth]{Graphics/mdq.png}
-        \caption{}
-        \label{fig:mdq}
-    \end{minipage}%
-    \hfill
-    \begin{minipage}{0.45\textwidth}
-        \centering
-        \includegraphics[width=1.0\textwidth]{Graphics/mdp.png}
-        \caption{}
-        \label{fig:mdp}
-    \end{minipage}
-
+    \includegraphics[width=0.7\textwidth]{Graphics/mdq.png}
+    \caption{Distribución de valores faltantes por columna (VCN7-T)}
+    \label{fig:mdq}
 \end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Graphics/mdp.png}
+    \caption{Distribución de valores faltantes por columna (Prevnar13)}
+    \label{fig:mdp}
+\end{figure}
 
-
-Los altos valores en las columnas 'post PsC SP [serotipo]' se deben a que el estudio utiliza dos esquemas de vacunación.
+La nomenclatura utilizada en los nombres de columna sigue este patrón:
 \begin{itemize}
-    \item esquema (2p + 1): 
-    \item esquema (3p + 0):
+    \item \texttt{pre PsC SP [serotipo]:} Concentración de anticuerpos antes de la aplicación de la dosis de refuerzo (después de la dosis primaria) para un serotipo neumocócico específico
+    \item \texttt{post PsC SP [serotipo]:} Concentración de anticuerpos después de la aplicación de la dosis de refuerzo para un serotipo neumocócico específico
+    \item \texttt{[serotipo]:} Identificador del serotipo (e.g., sp1, sp14, sp19F, etc.)
 \end{itemize}
-Se puede asumir que los sujetos con valores nulos en las columnas 'post PsC SP [serotipo]' fueron vacunados siguiendo un esquema (3p + 0), sin embargo para la validación del modelo nos centramos en los sujetos vacunados siguiendo el esquema (2p + 1).
+
+
+Los altos valores en las columnas \texttt{post PsC SP [serotipo]} se consideran \textbf{no aleatorios} (MNAR - Missing Not At Random) y están directamente relacionados con el diseño del estudio, que incluyó dos esquemas de vacunación:
+
+\begin{itemize}
+    \item \textbf{Esquema (2p + 1):} Dos dosis primarias + refuerzo (mediciones post-refuerzo disponibles)
+    \item \textbf{Esquema (3p + 0):} Tres dosis primarias sin refuerzo (mediciones post-refuerzo ausentes)
+\end{itemize}
+
+% Para la validación del modelo, se trabajó exclusivamente con los sujetos vacunados bajo el esquema (2p + 1), ya que:
+% \begin{enumerate}
+%     \item Presentan mediciones completas de anticuerpos post-vacunación
+%     \item Permiten evaluar la respuesta inmune tras la dosis de refuerzo
+%     \item Constituyen la cohorte con seguimiento completo
+% \end{enumerate}
+
+% \textbf{Justificación del enfoque:}
+% La exclusión de sujetos con esquema (3p + 0) se basa en:
+% \begin{itemize}
+%     \item La imposibilidad de calcular la respuesta inmune completa sin mediciones post-vacunación
+%     \item La necesidad de homogeneidad en el análisis de respuesta vacunal
+%     \item La preservación de la validez interna del estudio
+% \end{itemize}
+
+En la investigación se asume que los sujetos con valores nulos en las columnas \texttt{post PsC SP [serotipo]} fueron vacunados siguiendo un esquema (3p + 0), sin embargo para la validación del modelo se trabajó en los sujetos vacunados siguiendo el esquema (2p + 1).
 
 \subsubsection{Valores inconsistentes}
-Durante el análisis de los datos, se detectaron valores atípicos con magnitudes aparentemente inconsistentes. Una inspección minuciosa reveló que dichos valores correspondían a cifras significativas expresadas con distinta notación decimal; en particular, mientras la mayoría de los datos estaban representados con tres cifras significativas correctamente posicionadas, algunos carecían del punto decimal, lo que implicaba una escala incorrecta. Para homogeneizar la representación, se aplicó una corrección consistente en dividir por 1000 los valores afectados. Esta normalización facilitó una presentación más coherente y uniforme de los datos.
+Durante el análisis de los datos, se detectaron valores atípicos con magnitudes aparentemente inconsistentes. Una inspección minuciosa reveló que dichos valores correspondían a cifras significativas expresadas con distinta notación decimal; en particular, mientras la mayoría de los datos estaban representados con tres cifras significativas correctamente posicionadas, algunos carecían del punto decimal, lo que implicaba una escala incorrecta. Para homogeneizar la representación, se aplicó una corrección que consiste en dividir por 1000 los valores afectados. Esta normalización facilitó una presentación más coherente y uniforme de los datos.
 
-\vspace{0.5cm}
+En las gráficas \ref{fig:sp1d}, \ref{fig:sp1}, \ref{fig:sp14d} y \ref{fig:sp14} (Gráficas de valores pre-refuerzo contra valores post-refuerzo) se muestra una comparación del estado de los datos antes y después de la corrección.
 
-\textbf{Gráficas de valores pre-refuerzo(post vacunación primaria) contra valores post-refuerzo}
 
 \begin{figure}[h]
     \centering
@@ -96,7 +121,7 @@ Durante el análisis de los datos, se detectaron valores atípicos con magnitude
 
 
 \section{Entrenamiento}
-Para el entrenamiento del modelo se tomó el 70\% de los datos. este proceso tiene como objetivo estimar los parámetros \texttt{plasma\_production\_factor} y \texttt{memory\_production\_factor}
+Para el entrenamiento del modelo se tomó el 70\% de los datos. este proceso tiene como objetivo estimar los parámetros \texttt{plasma\_production\_factor} y \texttt{memory\_production\_factor}.
 
 \subsection{Exploración del espacio de parámetros}
 
@@ -109,7 +134,7 @@ El algoritmo comienza con una temperatura inicial alta que permite explorar ampl
 
 \subsection{Métrica de Optimización}
 
-La métrica utilizada como función objetivo durante el entrenamiento del modelo es la \textit{distancia de Chamfer}, una medida que cuantifica la similitud entre dos conjuntos de puntos en el espacio. Esta métrica es especialmente adecuada para comparar nubes de puntos, ya que evalúa la proximidad bidireccional entre cada punto de un conjunto y su vecino más cercano en el otro conjunto, capturando así diferencias en forma y distribución.
+La métrica utilizada como función objetivo durante el entrenamiento del modelo es la \textit{distancia de Chamfer}, una medida que cuantifica la similitud entre dos conjuntos de puntos en el espacio. La misma es especialmente adecuada para comparar nubes de puntos, ya que evalúa la proximidad bidireccional entre cada punto de un conjunto y su vecino más cercano en el otro conjunto.
 
 El cálculo de la distancia de Chamfer se realiza en dos pasos principales:
 
@@ -119,18 +144,16 @@ El cálculo de la distancia de Chamfer se realiza en dos pasos principales:
 \end{enumerate}
 
 Finalmente, la distancia de Chamfer se define como la suma (o promedio) de estos dos valores, formalmente expresada como:
-
 \[
 D_{\mathrm{Chamfer}}(S_1, S_2) = \frac{1}{|S_1|} \sum_{x \in S_1} \min_{y \in S_2} \|x - y\|_2 \;+\; \frac{1}{|S_2|} \sum_{y \in S_2} \min_{x \in S_1} \|y - x\|_2
 \]
-
 donde \( S_1 \) y \( S_2 \) son los conjuntos de puntos simulados y reales, respectivamente, y \(\|\cdot\|_2\) denota la distancia euclidiana.
 
-Esta métrica es relevante porque permite evaluar de forma robusta la similitud geométrica entre las salidas simuladas del modelo y los datos reales, incluso cuando los puntos no están emparejados uno a uno. Minimizar la distancia de Chamfer durante el entrenamiento guía al modelo a generar salidas que se ajusten estrechamente a la distribución y forma de los datos observados.
+Esta métrica es relevante porque permite evaluar de forma robusta la similitud entre las salidas simuladas del modelo y los datos reales, incluso cuando los puntos no están emparejados uno a uno. Minimizar la distancia de Chamfer durante el entrenamiento guía al modelo a generar salidas que se ajusten estrechamente a los datos.
 
 
 \section{Validación}
-Para el proceso de validación se tomó el 30\% restante de los datos y se generó una conjunto de la misma cantidad de puntos con los parámetros obtenidos del proceso de entrenamiento y se calculó la distancia Chamfer para estos conjuntos. Los resultados obtenidos se muestran a continuación:
+Para el proceso de validación se tomó el 30\% restante de los datos. Se generó una conjunto de la misma cantidad de puntos con los parámetros obtenidos en el proceso de entrenamiento y se calculó la distancia Chamfer para estos conjuntos. Los resultados obtenidos se muestran en la tabla \ref{tab:chamfer_serotipos}:
 
 \begin{table}[h]
 \centering

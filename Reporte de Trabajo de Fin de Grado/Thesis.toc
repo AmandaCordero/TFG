@@ -1,47 +1,55 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Introducción}{8}{chapter*.5}%
-\contentsline {chapter}{\numberline {1}Estado del Arte}{11}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Enfoques Computacionales Predominantes en la Modelización Inmunológica}{11}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Modelos de Transmisión Dinámica}{11}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Enfoques de Inmunología de Sistemas}{12}{subsection.1.1.2}%
-\contentsline {section}{\numberline {1.2}Integración y Validación de Modelos Computacionales}{12}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Validación con Datos Epidemiológicos}{13}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Correlación Inmunológica y Validación Clínica}{13}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Aplicaciones de los Modelos en Estrategias de Vacunación}{13}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Predicción del Impacto Poblacional}{13}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Optimización de Programas Vacunales}{14}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Respuestas Inmunológicas Específicas a Vacunas Neumocócicas}{14}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Modelización de Respuestas Inmunes Innatas}{14}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Caracterización de Respuestas Inmunes Adaptativas}{15}{subsection.1.4.2}%
-\contentsline {section}{\numberline {1.5}Avances en la Modelización de Poblaciones Específicas}{15}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Modelización en Población Neonatal e Infantil}{15}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Comparaciones entre Grupos Etarios}{15}{subsection.1.5.2}%
-\contentsline {section}{\numberline {1.6}Conclusión}{16}{section.1.6}%
-\contentsline {chapter}{\numberline {2}Preliminares}{17}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Características clave}{17}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Importancia de la vacunación}{17}{subsection.2.1.1}%
-\contentsline {section}{\numberline {2.2}Inmunología básica}{18}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Respuesta inmune a \textit {S. pneumoniae}: linfocitos B, memoria inmunológica y anticuerpos}{18}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Características inmunológicas en lactantes}{18}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Definiciones clave}{19}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Vacunas antineumocócicas conjugadas}{19}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Cobertura y correlatos de protección}{19}{subsection.2.3.1}%
-\contentsline {section}{\numberline {2.4}Examen ELISA}{19}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Metodología}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Modelado de agentes biológicos}{21}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Centros Germinales}{22}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Procesos Inmunológicos clave}{22}{subsection.3.2.1}%
-\contentsline {section}{\numberline {3.3}Sistema Inmune}{23}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Experimentación y Resultados}{25}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Datos para la Validación del Modelo}{25}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Limpieza de Datos}{25}{subsection.4.1.1}%
-\contentsline {subsubsection}{Datos Faltantes}{26}{section*.8}%
-\contentsline {subsubsection}{Valores inconsistentes}{26}{section*.10}%
-\contentsline {section}{\numberline {4.2}Entrenamiento}{27}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Exploración del espacio de parámetros}{27}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Métrica de Optimización}{28}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Validación}{29}{section.4.3}%
-\contentsline {chapter}{Conclusiones}{31}{chapter*.17}%
-\contentsline {chapter}{Recomendaciones}{32}{chapter*.18}%
-\contentsline {chapter}{Referencias}{33}{chapter*.19}%
+\contentsline {chapter}{\numberline {1}Preliminares}{11}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Características clave}{11}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Importancia de la vacunación}{11}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Inmunología básica}{12}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Respuesta inmune a \textit {Streptococcus pneumoniae}: linfocitos B, memoria inmunológica y anticuerpos}{12}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Características inmunológicas en lactantes}{12}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Definiciones clave}{13}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Vacunas antineumocócicas conjugadas}{13}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Cobertura y correlatos de protección}{13}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.4}Examen ELISA}{13}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Estado del Arte}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Enfoques Computacionales Predominantes en la Modelación Inmunológica}{15}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Modelos de Transmisión Dinámica}{15}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Enfoques de Inmunología de Sistemas}{16}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Modelado de Respuestas Celulares a Nivel Molecular}{16}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Herramientas Educativas para Modelación Inmunológica}{17}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Integración y Validación de Modelos Computacionales}{17}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Validación con Datos Epidemiológicos}{17}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Correlación Inmunológica y Validación Clínica}{18}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Validación de Modelos Moleculares}{18}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Aplicaciones de los Modelos en Estrategias de Vacunación}{18}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Predicción del Impacto Poblacional}{18}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Optimización de Programas Vacunales}{19}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Diseño de Inmunógenos}{19}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Respuestas Inmunológicas Específicas a Vacunas Neumocócicas}{20}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Modelación de Respuestas Inmunes Innatas}{20}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Caracterización de Respuestas Inmunes Adaptativas}{20}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Dinámica de Expansión Clonal}{20}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Avances en la Modelación de Poblaciones Específicas}{21}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Modelación en Población Neonatal e Infantil}{21}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Comparaciones entre Grupos Etarios}{21}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Limitaciones y Direcciones Futuras en la Modelización Computacional}{22}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Integración de Múltiples Escalas Modelísticas}{22}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Expansión a Poblaciones Diversas}{22}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Incorporación de Modelos Educativos}{22}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.7}Conclusión}{23}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Metodología}{24}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modelado de agentes biológicos}{24}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Centros Germinales}{24}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Sistema Inmune}{29}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Experimentación y Resultados}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Datos para la Validación del Modelo}{31}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Limpieza de Datos}{31}{subsection.4.1.1}%
+\contentsline {subsubsection}{Análisis de Datos Faltantes}{32}{section*.9}%
+\contentsline {subsubsection}{Valores inconsistentes}{34}{section*.12}%
+\contentsline {section}{\numberline {4.2}Entrenamiento}{35}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Exploración del espacio de parámetros}{35}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Métrica de Optimización}{35}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Validación}{36}{section.4.3}%
+\contentsline {chapter}{Conclusiones}{39}{chapter*.19}%
+\contentsline {chapter}{Recomendaciones}{40}{chapter*.20}%
+\contentsline {chapter}{Referencias}{41}{chapter*.21}%

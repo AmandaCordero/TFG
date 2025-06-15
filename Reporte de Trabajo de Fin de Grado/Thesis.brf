@@ -6,13 +6,19 @@
 \backcite {Castiglione2014}{{9}{(document)}{Doc-Start}}
 \backcite {SINC2021,UC3M2022}{{9}{(document)}{Doc-Start}}
 \backcite {DW2023}{{9}{(document)}{Doc-Start}}
+\backcite {PREADOJ2001}{{11}{1.1}{section.1.1}}
 \backcite {Snedecor2020a,Snedecor2020b}{{11}{1.1.1}{subsection.1.1.1}}
-\backcite {Obermoser2013}{{12}{1.1.2}{subsection.1.1.2}}
-\backcite {Snedecor2020a,Snedecor2020b}{{13}{1.2.1}{subsection.1.2.1}}
-\backcite {Obermoser2013}{{13}{1.2.2}{subsection.1.2.2}}
-\backcite {Obermoser2013}{{14}{1.4.1}{subsection.1.4.1}}
-\backcite {PREADOJ2001}{{17}{2.1}{section.2.1}}
-\backcite {Snedecor2020a,Snedecor2020b}{{17}{2.1.1}{subsection.2.1.1}}
-\backcite {AEP2023Blunting}{{18}{2.2.2}{subsection.2.2.2}}
-\backcite {Snedecor2020a}{{19}{2.3.1}{subsection.2.3.1}}
-\backcite {Lequin2005, Crowther2009}{{20}{2.4}{section.2.4}}
+\backcite {AEP2023Blunting}{{12}{1.2.2}{subsection.1.2.2}}
+\backcite {Snedecor2020a}{{13}{1.3.1}{subsection.1.3.1}}
+\backcite {Lequin2005, Crowther2009}{{14}{1.4}{section.1.4}}
+\backcite {Snedecor2020a,Snedecor2020b}{{15}{2.1.1}{subsection.2.1.1}}
+\backcite {Obermoser2013}{{16}{2.1.2}{subsection.2.1.2}}
+\backcite {Murugan2018}{{16}{2.1.3}{subsection.2.1.3}}
+\backcite {Handel2020}{{17}{2.1.4}{subsection.2.1.4}}
+\backcite {Snedecor2020a,Snedecor2020b}{{17}{2.2.1}{subsection.2.2.1}}
+\backcite {Obermoser2013}{{18}{2.2.2}{subsection.2.2.2}}
+\backcite {Murugan2018}{{18}{2.2.3}{subsection.2.2.3}}
+\backcite {Murugan2018}{{19}{2.3.3}{subsection.2.3.3}}
+\backcite {Obermoser2013}{{20}{2.4.1}{subsection.2.4.1}}
+\backcite {Murugan2018}{{20}{2.4.3}{subsection.2.4.3}}
+\backcite {Handel2020}{{22}{2.6.3}{subsection.2.6.3}}
