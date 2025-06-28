@@ -1,14 +1,14 @@
 %===================================================================================
 % Chapter: Metodologia
 %===================================================================================
-\chapter{Experimentación y Resultados}\label{chapter:resultados}
+\chapter{Resultados}\label{chapter:resultados}
 %\addcontentsline{toc}{chapter}{Marco Teórico}
 %===================================================================================
 
 En este capítulo se detalla el proceso de validación del modelo propuesto. 
 
 \section{Datos para la Validación del Modelo}
-En el presente trabajo los datos provienen del Estudio en Lactantes Fase I/II para PCV7-TT (Instituto Finlay de Vacunas, 2019), cuyo principal objetivo era caracterizar la seguridad de VCN7-T y evaluar la no inferioridad de VCN7-T con respecto a Prevnar13® administrados en esquemas concomitante con las vacunas Va-Mengoc- BC® y Heberpenta® incluyendo lactantes de 2 a 3 meses de edad.
+Los datos utilizados en la investigación provienen del Estudio en Lactantes Fase I/II para PCV7-TT (Instituto Finlay de Vacunas, 2019), cuyo principal objetivo era caracterizar la seguridad del candidato vacunal VCN7-T y evaluar la no inferioridad de VCN7-T con respecto a la vacuna Prevnar13® administrados en esquemas concomitante con las vacunas Va-Mengoc- BC® y Heberpenta® incluyendo lactantes de 2 a 3 meses de edad.
 
 Se cuenta con datos de 240 sujetos divididos en dos grupos:
 \begin{enumerate}
@@ -81,7 +81,7 @@ En la investigación se asume que los sujetos con valores nulos en las columnas 
 \subsubsection{Valores inconsistentes}
 Durante el análisis de los datos, se detectaron valores atípicos con magnitudes aparentemente inconsistentes. Una inspección minuciosa reveló que dichos valores correspondían a cifras significativas expresadas con distinta notación decimal; en particular, mientras la mayoría de los datos estaban representados con tres cifras significativas correctamente posicionadas, algunos carecían del punto decimal, lo que implicaba una escala incorrecta. Para homogeneizar la representación, se aplicó una corrección que consiste en dividir por 1000 los valores afectados. Esta normalización facilitó una presentación más coherente y uniforme de los datos.
 
-En las gráficas \ref{fig:sp1d}, \ref{fig:sp1}, \ref{fig:sp14d} y \ref{fig:sp14} (Gráficas de valores pre-refuerzo contra valores post-refuerzo) se muestra una comparación del estado de los datos antes y después de la corrección.
+En las gráficas \ref{fig:sp1d}, \ref{fig:sp1}, \ref{fig:sp14d} y \ref{fig:sp14} (Gráficas de valores pre-refuerzo contra valores post-refuerzo) se muestra una comparación del estado de los datos antes y después de la corrección (las gráficas para el resto de los serotipos se muestran en \ref{comp}). 
 
 
 \begin{figure}[h]
@@ -119,9 +119,11 @@ En las gráficas \ref{fig:sp1d}, \ref{fig:sp1}, \ref{fig:sp14d} y \ref{fig:sp14}
     \end{minipage}
 \end{figure}
 
+En las gráficas pre-procesamiento de observan datos en el orden de las decenas de miles en el eje de las X los cuales pueden ser considerados como \textit{outliers} por un análisis superficial. Sin embargo después de aplicada la corrección antes expuesta estos puntos responden más adecuadamente a la naturaleza de los datos.
+
 
 \section{Entrenamiento}
-Para el entrenamiento del modelo se tomó el 70\% de los datos. este proceso tiene como objetivo estimar los parámetros \texttt{plasma\_production\_factor} y \texttt{memory\_production\_factor}.
+Para el entrenamiento del modelo se tomó el 70\% de los datos. Este proceso tiene como objetivo estimar los parámetros \texttt{plasma\_production\_factor} y \texttt{memory\_production\_factor}.
 
 \subsection{Exploración del espacio de parámetros}
 
@@ -130,7 +132,7 @@ Para explorar el espacio de parámetros durante el proceso de entrenamiento se u
 El algoritmo comienza con una temperatura inicial 1.0 que permite explorar el espacio de soluciones, aceptando cambios incluso si empeoran la función objetivo. A medida que avanza el proceso, la temperatura decrece siguiendo un protocolo de enfriamiento, reduciendo gradualmente la probabilidad de aceptar soluciones peores.
 
 \subsubsection{Soluciones vecinas:}
-Estas se generan seleccionando aleatoriamente uno de los parámetros a estimar y añadiendole un ajuste $\delta$.
+Estas se generan seleccionando aleatoriamente uno de los parámetros a estimar y añadiéndole un ajuste $\delta$.
 
 \subsubsection{Criteros de parada:}
 \begin{itemize}
@@ -168,11 +170,17 @@ Para el proceso de validación se tomó el 30\% restante de los datos. Se gener�
 \end{tabular}
 \label{tab:chamfer_serotipos}
 \end{table}
+Aunque los resultados visuales y cuantitativos no son óptimos, aportan información valiosa a la investigación. El modelo presenta un menor desempeño en serotipos, como el 14 y el 6B, cuyos datos experimentales exhiben una mayor dispersión (nube de puntos más amplia), lo que sugiere que su precisión podría mejorar con un tamaño de muestra más grande.
 
-\textbf{Gráficas de valores pre-refuerzo(post vacunación primaria) contra valores post-refuerzo}
+En las gráficas, desde la \ref{fig:sp1t} hasta la \ref{fig:sp6bt}, se observa que, si bien la salida del modelo no captura por completo la variabilidad de los datos, logra aproximarse al centroide de la distribución. Esta aproximación es más precisa en los serotipos donde la dispersión de los datos es menor.
+
+El 
+
+\textbf{Gráficas de valores pre-refuerzo (post vacunación primaria) contra valores post-refuerzo}
 \begin{itemize}
     \item Puntos naranjas: datos de validación.
     \item Puntos azules: salida del modelo.
+    \item Punto violeta: centroide de los datos de validación.
 \end{itemize}
 \begin{figure}[h]
     \centering

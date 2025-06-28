@@ -100,10 +100,20 @@ G.~Obermoser, S.~R. Presnell, K.~Domico, H.~Xu, Y.~Wang, E.~Anguiano, L.~Thompso
 \newblock Systems scale interactive exploration reveals quantitative and qualitative differences in response to influenza and pneumococcal vaccines.
 \newblock {\em Immunity}, 2013.
 
+\bibitem{Lee2016}
+Eva~K. Lee, Helder~I. Nakaya, Fan Yuan, Troy~D. Querec, Greg Burel, Ferdinand~H. Pietz, Bernard~A. Benecke, and Bali Pulendran.
+\newblock Machine learning for predicting vaccine immunogenicity.
+\newblock {\em Interfaces}, 2016.
+
 \bibitem{Murugan2018}
 Rajagopal Murugan, Lisa Buchauer, Gianna Triller, Cornelia Kreschel, Giulia Costa, Gemma Pidelaserra~Marti, Katharina Imkeller, Christian~E. Busse, Sumana Chakravarty, B.~Kim~Lee Sim, Stephen~L. Hoffman, Elena~A. Levashina, Peter~G. Kremsner, Benjamin Mordmüller, Thomas Höfer, and Hedda Wardemann.
 \newblock Clonal selection drives protective memory b cell responses in controlled human malaria infection.
 \newblock {\em Science Immunology}, 2018.
+
+\bibitem{GarciaPolacordoves2022}
+Elianys García-Pola~Córdoves.
+\newblock {MCMC en modelos dinámicos: Aplicación a la evaluación de impacto del candidato vacunal PCV7-TT}.
+\newblock Master's thesis, Universidad de La Habana, La Habana, Cuba, 2022.
 
 \bibitem{murphy2017janeway}
 Kenneth Murphy and Casey Weaver.
